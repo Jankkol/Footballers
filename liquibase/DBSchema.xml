@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+
+    <changeSet author="jank" id="createTable-User">
+        <createTable
+                remarks="A String"
+                tableName="User"
+                tablespace="A String">
+            <column name="id" type="int"/>
+            <column name="FIRST_NAME" type="varchar(55)"/>
+            <column name="LAST_NAME" type="varchar(255)"/>
+        </createTable>
+        <rollback></rollback>
+    </changeSet>
+    <changeSet author="jank" id="addAutoIncrement-User">
+        <addAutoIncrement
+                columnDataType="int"
+                columnName="id"
+                incrementBy="1"
+                startWith="1"
+                tableName="User"/>
+    </changeSet>
+    <changeSet author="jank" id="createTable-Team">
+        <createTable
+                remarks="A String"
+                tableName="Team"
+                tablespace="A String">
+            <column name="id" type="int"/>
+            <column name="user1" type="int"/>
+            <column name="user2" type="int"/>
+        </createTable>
+        <rollback></rollback>
+    </changeSet>
+    <changeSet author="jank" id="addAutoIncrement-Team">
+        <addAutoIncrement
+                columnDataType="int"
+                columnName="id"
+                incrementBy="1"
+                startWith="1"
+                tableName="Team"/>
+    </changeSet>
+    <changeSet author="jank" id="createTable-Spot">
+        <createTable
+                remarks="A String"
+                tableName="Spot"
+                tablespace="A String">
+            <column name="id" type="int"/>
+            <column name="round" type="int"/>
+        </createTable>
+        <rollback></rollback>
+    </changeSet>
+    <changeSet author="jank" id="addAutoIncrement-Spot">
+        <addAutoIncrement
+                columnDataType="int"
+                columnName="id"
+                incrementBy="1"
+                startWith="1"
+                tableName="Spot"/>
+    </changeSet>
+
+</databaseChangeLog>

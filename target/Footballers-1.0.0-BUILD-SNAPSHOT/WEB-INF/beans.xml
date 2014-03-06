@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+       http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+	<!-- the application context definition for the springapp DispatcherServlet 
+		<bean name="statusProvider" class="pl.project.noapp.StatusProvider" /> -->
+
+	<context:component-scan base-package="pl.project.service" />
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.hsqldb.jdbc.JDBCDataSource" />
+		<property name="url" value="jdbc:hsqldb:hsql://localhost/" />
+		<property name="username" value="SA" />
+		<property name="password" value="" />
+	</bean>
+	<bean id="dataSourceJndi" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="footballersPool" />
+		<property name="expectedType" value="javax.sql.DataSource" />
+	</bean>
+	<bean id="hibernateSessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceJndi" />
+		<property name="hibernateProperties">
+			<props>
+				<!--<prop key="hibernate.dialect">org.hibernate.dialect.OracleDialect</prop> -->
+				<prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+		<property name="annotatedClasses">
+			<list>
+				<value>pl.project.domain.SpotBean</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory" ref="hibernateSessionFactory" />
+	</bean>
+	<bean id="spotDao" class="pl.project.core.spot.SpotDaoBean">
+		<property name="hibernateTemplate" ref="hibernateTemplate"></property>
+	</bean>
+	<bean id="spotService" class="pl.project.core.spot.SpotServiceBean">
+		<property name="dao" ref="spotDao"></property>
+	</bean>
+	
+	<bean class="pl.project.web.spot.SpotFormController">
+		<property name="validator">
+			<bean class="pl.project.web.spot.SpotFormValidator" />
+		</property>
+		<property name="spotService" ref="spotService"></property>
+	</bean>
+
+	<bean class="pl.project.web.spot.SpotFormContinueController" />
+</beans>
