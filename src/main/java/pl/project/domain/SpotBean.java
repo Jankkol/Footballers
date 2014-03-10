@@ -1,10 +1,6 @@
 package pl.project.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import pl.project.core.AbstractBean;
 
@@ -21,29 +17,47 @@ public class SpotBean extends AbstractBean<Long> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private int round;
+    @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+    private UserBean homeTeam;
+    @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+    private UserBean awayTeam;
+    private int[] homeScore;
+    private int[] awayScore;
 
-	/*
-	 * @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER) private
-	 * List<UserBean> firstTeam;
-	 * 
-	 * @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER) private
-	 * List<UserBean> secondTeam;
-	 * 
-	 * @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER) private
-	 * List<Score> scores;
-	 */
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-	public int getRound() {
-		return round;
-	}
+    public UserBean getHomeTeam() {
+        return homeTeam;
+    }
 
-	public void setRound(int round) {
-		this.round = round;
-	}
+    public void setHomeTeam(UserBean homeTeam) {
+        this.homeTeam = homeTeam;
+    }
 
+    public UserBean getAwayTeam() {
+        return awayTeam;
+    }
+
+    public void setAwayTeam(UserBean awayTeam) {
+        this.awayTeam = awayTeam;
+    }
+
+    public int[] getHomeScore() {
+        return homeScore;
+    }
+
+    public void setHomeScore(int[] homeScore) {
+        this.homeScore = homeScore;
+    }
+
+    public int[] getAwayScore() {
+        return awayScore;
+    }
+
+    public void setAwayScore(int[] awayScore) {
+        this.awayScore = awayScore;
+    }
 }
