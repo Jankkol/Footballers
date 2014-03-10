@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="Changes in domain. Delete TeamBean. Organize SpotBean.">
-      <change type="DELETED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\domain\Score.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\domain\TeamBean.java" afterPath="" />
+    <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liquibase/DBSchema.xml" afterPath="$PROJECT_DIR$/liquibase/DBSchema.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -72,7 +74,7 @@
       <file leaf-file-name="DBChanges.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liquibase/DBChanges.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
+            <state line="6" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -81,7 +83,7 @@
       <file leaf-file-name="DBSchema.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/liquibase/DBSchema.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="1349" selection-end="1349" vertical-scroll-proportion="1.037702" vertical-offset="0" max-vertical-offset="1190">
+            <state line="12" column="42" selection-start="557" selection-end="557" vertical-scroll-proportion="0.36756757" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -90,7 +92,7 @@
       <file leaf-file-name="UserBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="782">
+            <state line="39" column="5" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -99,24 +101,20 @@
       <file leaf-file-name="SpotBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="1105">
+            <state line="22" column="30" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
               <folding>
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,7 +141,7 @@
       <file leaf-file-name="spotForm.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="705" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="680">
+            <state line="32" column="19" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -152,7 +150,16 @@
       <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="4" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1938">
+            <state line="74" column="10" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1547">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotFormValidator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="10" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -179,9 +186,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liquibase/DBChanges.xml" />
         <option value="$PROJECT_DIR$/liquibase/db.changelog-master.xml" />
-        <option value="$PROJECT_DIR$/liquibase/DBSchema.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+        <option value="$PROJECT_DIR$/liquibase/DBSchema.xml" />
       </list>
     </option>
   </component>
@@ -613,7 +623,11 @@
       <created>1394135717379</created>
       <updated>1394135717379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes in domain. Delete TeamBean. Organize SpotBean.">
+      <created>1394477712824</created>
+      <updated>1394477712824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -929,27 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="705" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="4" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liquibase/DBChanges.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liquibase/db.changelog-master.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="11" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
@@ -969,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="7" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -985,38 +971,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state line="39" column="5" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="19" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="10" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="1105">
+        <state line="22" column="30" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding>
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liquibase/DBChanges.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liquibase/DBSchema.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1349" selection-end="1349" vertical-scroll-proportion="1.037702" vertical-offset="0" max-vertical-offset="1190">
+        <state line="12" column="42" selection-start="557" selection-end="557" vertical-scroll-proportion="0.36756757" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>

@@ -24,33 +24,34 @@
                 startWith="1"
                 tableName="User"/>
     </changeSet>
-    <changeSet author="jank" id="createTable-Team">
-        <createTable
-                remarks="A String"
-                tableName="Team"
-                tablespace="A String">
-            <column name="id" type="int"/>
-            <column name="user1" type="int"/>
-            <column name="user2" type="int"/>
-        </createTable>
-        <rollback></rollback>
-    </changeSet>
-    <changeSet author="jank" id="addAutoIncrement-Team">
-        <addAutoIncrement
-                columnDataType="int"
-                columnName="id"
-                incrementBy="1"
-                startWith="1"
-                tableName="Team"/>
-    </changeSet>
     <changeSet author="jank" id="createTable-Spot">
         <createTable
                 remarks="A String"
                 tableName="Spot"
                 tablespace="A String">
             <column name="id" type="int"/>
-            <column name="round" type="int"/>
+            <column name="hometeam" type="int"/>
+            <column name="awayteam" type="int"/>
+            <column name="score" type="varchar(255)"/>
         </createTable>
+        <addForeignKeyConstraint baseColumnNames="hometeam"
+                                 baseTableName="SPOT"
+                                 constraintName="fk_spot_user"
+                                 deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="CASCADE"
+                                 onUpdate="RESTRICT"
+                                 referencedColumnNames="id"
+                                 referencedTableName="User"/>
+        <addForeignKeyConstraint baseColumnNames="awayTeam"
+                                 baseTableName="Spot"
+                                 constraintName="fk_spot_user"
+                                 deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="CASCADE"
+                                 onUpdate="RESTRICT"
+                                 referencedColumnNames="Id"
+                                 referencedTableName="User"/>
         <rollback></rollback>
     </changeSet>
     <changeSet author="jank" id="addAutoIncrement-Spot">

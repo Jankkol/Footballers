@@ -71,8 +71,8 @@ public class SpotFormController extends SimpleFormController {
 			throws Exception {
 		log.info("onSubmit");
 		SpotData formData = (SpotData) command;
-		log.info("Tutaj zapisujesz " + formData.getBean().getRound()
-				+ " przez service jesli obiekt jest nowy.");
+		//log.info("Tutaj zapisujesz " + formData.getBean().getRound()
+		//		+ " przez service jesli obiekt jest nowy.");
 		spotService.save(formData.getBean());
 		return new ModelAndView(getSuccessView());
 	}

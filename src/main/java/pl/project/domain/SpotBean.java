@@ -21,8 +21,7 @@ public class SpotBean extends AbstractBean<Long> {
     private UserBean homeTeam;
     @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
     private UserBean awayTeam;
-    private int[] homeScore;
-    private int[] awayScore;
+    private String[] score;
 
 	@Override
 	public Long getId() {
@@ -45,19 +44,11 @@ public class SpotBean extends AbstractBean<Long> {
         this.awayTeam = awayTeam;
     }
 
-    public int[] getHomeScore() {
-        return homeScore;
+    public String[] getScore() {
+        return score;
     }
 
-    public void setHomeScore(int[] homeScore) {
-        this.homeScore = homeScore;
-    }
-
-    public int[] getAwayScore() {
-        return awayScore;
-    }
-
-    public void setAwayScore(int[] awayScore) {
-        this.awayScore = awayScore;
+    public void setScore(String[] score) {
+        this.score = score;
     }
 }
