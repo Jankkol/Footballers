@@ -4,6 +4,8 @@ import javax.persistence.*;
 
 import pl.project.core.AbstractBean;
 
+import java.util.List;
+
 @Entity
 @Table(name = "SPOT")
 // @NamedQueries({
@@ -18,37 +20,37 @@ public class SpotBean extends AbstractBean<Long> {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
     @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
-    private UserBean homeTeam;
+    private HomeTeamBean homeTeam;
     @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
-    private UserBean awayTeam;
-    private String[] score;
+    private AwayTeamBean awayTeam;
+    private List<ScoreBean> score;
 
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-    public UserBean getHomeTeam() {
+    public HomeTeamBean getHomeTeam() {
         return homeTeam;
     }
 
-    public void setHomeTeam(UserBean homeTeam) {
+    public void setHomeTeam(HomeTeamBean homeTeam) {
         this.homeTeam = homeTeam;
     }
 
-    public UserBean getAwayTeam() {
+    public AwayTeamBean getAwayTeam() {
         return awayTeam;
     }
 
-    public void setAwayTeam(UserBean awayTeam) {
+    public void setAwayTeam(AwayTeamBean awayTeam) {
         this.awayTeam = awayTeam;
     }
 
-    public String[] getScore() {
+    public List<ScoreBean> getScore() {
         return score;
     }
 
-    public void setScore(String[] score) {
+    public void setScore(List<ScoreBean> score) {
         this.score = score;
     }
 }
