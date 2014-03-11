@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/AwayTeamBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotScoreBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -99,23 +97,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpotBean.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpotBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="788" selection-end="788" vertical-scroll-proportion="0.2693662" vertical-offset="204" max-vertical-offset="952">
+            <state line="26" column="38" selection-start="770" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1037">
               <folding>
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +123,13 @@
       <file leaf-file-name="ScoreBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding />
+            <state line="24" column="5" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding>
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,10 +175,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeTeamBean.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HomeTeamBean.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="12" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.29929578" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -222,13 +226,13 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserFormValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotScoreBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/AwayTeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
       </list>
     </option>
   </component>
@@ -709,12 +713,16 @@
       <created>1394560077676</created>
       <updated>1394560077676</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add table many to many.">
+      <created>1394571643275</created>
+      <updated>1394571643275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -732,7 +740,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -786,7 +794,8 @@
     <MESSAGE value="Changes in DBSchema.&#10;" />
     <MESSAGE value="Add User classes." />
     <MESSAGE value="Changes in domain. Add ScoreBean." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in domain. Add ScoreBean." />
+    <MESSAGE value="Add table many to many." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add table many to many." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1096,20 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/AwayTeamBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="7" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -1136,21 +1131,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="788" selection-end="788" vertical-scroll-proportion="0.2693662" vertical-offset="204" max-vertical-offset="952">
+        <state line="26" column="38" selection-start="770" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1037">
           <folding>
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding>
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.29929578" vertical-offset="0" max-vertical-offset="595">
+          <folding />
         </state>
       </provider>
     </entry>

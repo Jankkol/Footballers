@@ -20,37 +20,38 @@ public class SpotBean extends AbstractBean<Long> {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
     @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
-    private HomeTeamBean homeTeam;
+    private List<HomeTeamBean> homeTeam;
     @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
-    private AwayTeamBean awayTeam;
-    private List<ScoreBean> score;
+    private List<AwayTeamBean> awayTeam;
+    @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+    private List<SpotScoreBean> score;
 
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-    public HomeTeamBean getHomeTeam() {
+    public List<HomeTeamBean> getHomeTeam() {
         return homeTeam;
     }
 
-    public void setHomeTeam(HomeTeamBean homeTeam) {
+    public void setHomeTeam(List<HomeTeamBean> homeTeam) {
         this.homeTeam = homeTeam;
     }
 
-    public AwayTeamBean getAwayTeam() {
+    public List<AwayTeamBean> getAwayTeam() {
         return awayTeam;
     }
 
-    public void setAwayTeam(AwayTeamBean awayTeam) {
+    public void setAwayTeam(List<AwayTeamBean> awayTeam) {
         this.awayTeam = awayTeam;
     }
 
-    public List<ScoreBean> getScore() {
+    public List<SpotScoreBean> getScore() {
         return score;
     }
 
-    public void setScore(List<ScoreBean> score) {
+    public void setScore(List<SpotScoreBean> score) {
         this.score = score;
     }
 }

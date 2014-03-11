@@ -3,6 +3,7 @@ package pl.project.domain;
 import pl.project.core.AbstractBean;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "SCORE")
@@ -15,6 +16,8 @@ public class ScoreBean extends AbstractBean<Long> {
     private int homeScore;
     @Column(name = "AWAY_SCORE")
     private int awayScore;
+    @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+    private List<SpotScoreBean> score;
 
 	@Override
 	public Long getId() {
@@ -35,5 +38,13 @@ public class ScoreBean extends AbstractBean<Long> {
 
     public void setAwayScore(int awayScore) {
         this.awayScore = awayScore;
+    }
+
+    public List<SpotScoreBean> getScore() {
+        return score;
+    }
+
+    public void setScore(List<SpotScoreBean> score) {
+        this.score = score;
     }
 }
