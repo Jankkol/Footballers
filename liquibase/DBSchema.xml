@@ -14,6 +14,9 @@
             <column name="FIRST_NAME" type="varchar(55)"/>
             <column name="LAST_NAME" type="varchar(255)"/>
         </createTable>
+        <addPrimaryKey
+                columnNames="id"
+                tableName="User"/>
         <rollback></rollback>
     </changeSet>
     <changeSet author="jank" id="addAutoIncrement-User">
@@ -34,6 +37,10 @@
             <column name="awayteam" type="int"/>
             <column name="score" type="varchar(255)"/>
         </createTable>
+        <addPrimaryKey
+                columnNames="id"
+                tableName="Spot"/>
+
         <addForeignKeyConstraint baseColumnNames="hometeam"
                                  baseTableName="SPOT"
                                  constraintName="fk_spot_user"
@@ -45,7 +52,7 @@
                                  referencedTableName="User"/>
         <addForeignKeyConstraint baseColumnNames="awayTeam"
                                  baseTableName="Spot"
-                                 constraintName="fk_spot_user"
+                                 constraintName="fk_spot_user2"
                                  deferrable="false"
                                  initiallyDeferred="false"
                                  onDelete="CASCADE"
