@@ -13,29 +13,29 @@ public class HomeTeamBean extends AbstractBean<Long> {
 	private Long id;
     @Column(name = "SPOT_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private int spot;
+    private SpotBean spot;
     @Column(name = "USER_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private int user;
+    private UserBean user;
 
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-    public int getSpot() {
+    public SpotBean getSpot() {
         return spot;
     }
 
-    public void setSpot(int spot) {
+    public void setSpot(SpotBean spot) {
         this.spot = spot;
     }
 
-    public int getUser() {
+    public UserBean getUser() {
         return user;
     }
 
-    public void setUser(int user) {
+    public void setUser(UserBean user) {
         this.user = user;
     }
 }
