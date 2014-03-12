@@ -13,10 +13,10 @@ public class SpotScoreBean extends AbstractBean<Long> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-    @Column(name = "SPOT_ID")
+    @JoinColumn(name = "SPOT_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private SpotBean spot;
-    @Column(name = "SCORE_ID")
+    @JoinColumn(name = "SCORE_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private ScoreBean score;
 

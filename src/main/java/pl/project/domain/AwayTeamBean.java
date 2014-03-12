@@ -11,10 +11,10 @@ public class AwayTeamBean extends AbstractBean<Long> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-    @Column(name = "SPOT_ID")
+    @JoinColumn(name = "SPOT_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private SpotBean spot;
-    @Column(name = "USER_ID")
+    @JoinColumn(name = "USER_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private UserBean user;
 

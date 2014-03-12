@@ -25,12 +25,12 @@
     	<#list listka as l>
     		${l} <br> 
 		</#list> -->
-		<#-- <form method="post" commandName="form">
+		<form method="post" commandName="form">
 			<@spring.formInput 'form.bean.firstName', 'class="required" maxlength="255" '/>
 			<@spring.formInput 'form.bean.lastName', 'class="required" maxlength="255" '/>
 			<a class="save-button" href="#">
 				<span class="save">Save</span>
 			</a>
-		</form> -->
+		</form>
     </body>
 </html>

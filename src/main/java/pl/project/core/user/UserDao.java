@@ -7,10 +7,10 @@ import pl.project.domain.UserBean;
 
 public interface UserDao extends AbstractDao<UserBean, Long> {
 
-	void save(UserBean User);
+	//void save(UserBean User);
 
-	void update(UserBean User);
+	//void update(UserBean User);
 
-	List<UserBean> getAllUsers();
+	//List<UserBean> getAllUsers();
 
 }
