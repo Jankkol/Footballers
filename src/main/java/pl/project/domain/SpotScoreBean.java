@@ -15,29 +15,30 @@ public class SpotScoreBean extends AbstractBean<Long> {
 	private Long id;
     @Column(name = "SPOT_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private int spot;
-    @Column(name = "USER_ID")
+    private SpotBean spot;
+    @Column(name = "SCORE_ID")
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private int user;
+    private ScoreBean score;
 
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-    public int getSpot() {
+    public SpotBean getSpot() {
         return spot;
     }
 
-    public void setSpot(int spot) {
+    public void setSpot(SpotBean spot) {
         this.spot = spot;
     }
 
-    public int getUser() {
-        return user;
+    public ScoreBean getScore() {
+        return score;
     }
 
-    public void setUser(int user) {
-        this.user = user;
+    public void setScore(ScoreBean score) {
+        this.score = score;
     }
 }
+
