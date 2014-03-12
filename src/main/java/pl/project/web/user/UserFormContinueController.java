@@ -1,4 +1,4 @@
-package pl.project.core.web.user;
+package pl.project.web.user;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

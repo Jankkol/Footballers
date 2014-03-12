@@ -1,10 +1,9 @@
-package pl.project.core.web.user;
+package pl.project.web.user;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import pl.project.web.spot.SpotData;
 
 public class UserFormValidator implements Validator {
 

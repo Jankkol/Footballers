@@ -36,6 +36,7 @@
 		<property name="annotatedClasses">
 			<list>
 				<value>pl.project.domain.SpotBean</value>
+                <value>pl.project.domain.UserBean</value>
 			</list>
 		</property>
 	</bean>
@@ -57,5 +58,20 @@
 		<property name="spotService" ref="spotService"></property>
 	</bean>
 
-	<bean class="pl.project.web.spot.SpotFormContinueController" />
+	<bean class="pl.project.web.user.UserFormContinueController" />
+    <bean id="userDao" class="pl.project.core.user.UserDaoBean">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+    <bean id="userService" class="pl.project.core.user.UserServiceBean">
+        <property name="dao" ref="userDao"></property>
+    </bean>
+
+    <bean class="pl.project.web.user.UserFormController">
+        <property name="validator">
+            <bean class="pl.project.web.user.UserFormValidator" />
+        </property>
+        <property name="userService" ref="userService"></property>
+    </bean>
+
+    <bean class="pl.project.web.user.UserFormContinueController" />
 </beans>
