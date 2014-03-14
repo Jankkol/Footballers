@@ -11,6 +11,6 @@ public interface UserDao extends AbstractDao<UserBean, Long> {
 
 	//void update(UserBean User);
 
-	//List<UserBean> getAllUsers();
+	List<UserBean> getAllUsers();
 
 }

@@ -31,10 +31,10 @@ public class AbstractDaoBean<B extends AbstractBean<ID>, ID extends Serializable
 		return null;
 	}
 	
-	@Override
+	/*@Override
 	public List<B> getAll() {
 		// TODO Auto-generated method stub
 		return null;
-	}
+	} */
 
 }

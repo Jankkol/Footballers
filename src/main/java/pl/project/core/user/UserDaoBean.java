@@ -25,13 +25,12 @@ public class UserDaoBean  extends AbstractDaoBean<UserBean, Long> implements
 	public void update(UserBean User) {
 		// TODO Auto-generated method stub
 		
-	}
+	} */
 
 	@Override
 	public List<UserBean> getAllUsers() {
-		// TODO Auto-generated method stub
-		return null;
-	} */
+		return getHibernateTemplate().findByNamedQuery("user.getAll");
+	}
 
 
 }

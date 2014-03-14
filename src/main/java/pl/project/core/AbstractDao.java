@@ -12,5 +12,5 @@ public abstract interface AbstractDao<B extends AbstractBean<ID>, ID extends Ser
 
 	public abstract B get(ID bean);
 
-	public abstract List<B> getAll();
+	//public abstract List<B> getAll();
 }

@@ -16,7 +16,8 @@ import javax.persistence.OneToMany;
 
 
 @Entity(name = "USER")
-// @NamedQueries({ @NamedQuery(name = "user.getAll", query = "Select u from User u") })
+
+@NamedQueries({ @NamedQuery(name = "user.getAll", query = "Select u from User u") })
 public class UserBean extends AbstractBean<Long> {
 
 	@Id
