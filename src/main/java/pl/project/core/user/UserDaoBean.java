@@ -3,6 +3,7 @@ package pl.project.core.user;
 import java.util.List;
 
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,7 +30,8 @@ public class UserDaoBean  extends AbstractDaoBean<UserBean, Long> implements
 
 	@Override
 	public List<UserBean> getAllUsers() {
-		return getHibernateTemplate().findByNamedQuery("user.getAll");
+        List<UserBean> users = getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(UserBean.class));
+		return users;
 	}
 
 
