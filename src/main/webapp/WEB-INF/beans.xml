@@ -78,4 +78,5 @@
     </bean>
 
     <bean class="pl.project.web.user.UserFormContinueController"/>
+    <bean class="pl.project.web.user.UserListController"/>
 </beans>
