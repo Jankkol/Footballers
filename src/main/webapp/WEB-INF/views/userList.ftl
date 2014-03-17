@@ -25,8 +25,8 @@
     	<#list listka as l>
     		${l} <br> 
 		</#list> -->
-		<#list result?keys as r>
-		    ${r} = {result[r].firstName} <br>
+		<#list users as users>
+		    ${users.firstName} <br>
 		</#list>
 
     </body>

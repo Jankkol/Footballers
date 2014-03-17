@@ -78,5 +78,7 @@
     </bean>
 
     <bean class="pl.project.web.user.UserFormContinueController"/>
-    <bean class="pl.project.web.user.UserListController"/>
+    <bean class="pl.project.web.user.UserListController">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
 </beans>

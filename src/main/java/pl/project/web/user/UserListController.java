@@ -37,7 +37,7 @@ public class UserListController extends SimpleFormController {
         Map<String, List<UserBean>> result = new HashMap<String, List<UserBean>>();
 
         List<UserBean> users = userDao.getAllUsers();
-
+        log.error(users.get(0).getFirstName());
         result.put("users", users);
 
         return result;
