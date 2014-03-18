@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -73,32 +74,16 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="27" column="16" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1581">
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#1522#1538#0" expanded="false" />
-                    <element signature="e#1594#1612#0" expanded="false" />
-                    <element signature="e#1927#1935#0" expanded="false" />
-                    <element signature="e#3391#3392#0" expanded="false" />
-                    <element signature="e#3425#3426#0" expanded="false" />
-                    <element signature="e#3484#3485#0" expanded="false" />
-                    <element signature="e#3530#3531#0" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserListController.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="UserListController.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="35" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="748">
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#1103#1127#0" expanded="false" />
-                    <element signature="e#1338#1339#0" expanded="false" />
-                    <element signature="e#1368#1369#0" expanded="false" />
-                    <element signature="e#1419#1420#0" expanded="false" />
-                    <element signature="e#1457#1458#0" expanded="false" />
-                  </folding>
+                <state line="35" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-0.9034749" vertical-offset="591" max-vertical-offset="850">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -124,7 +109,7 @@
           <file leaf-file-name="spotForm.ftl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="10" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
+                <state line="22" column="10" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680">
                   <folding />
                 </state>
               </provider>
@@ -133,7 +118,7 @@
           <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1547">
+                <state line="30" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1547">
                   <folding />
                 </state>
               </provider>
@@ -160,16 +145,7 @@
           <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="67" column="11" selection-start="3417" selection-end="3417" vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="1513">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="userList.ftl" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="11" selection-start="489" selection-end="489" vertical-scroll-proportion="1.1814672" vertical-offset="0" max-vertical-offset="544">
+                <state line="82" column="11" selection-start="4014" selection-end="4014" vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1513">
                   <folding />
                 </state>
               </provider>
@@ -179,10 +155,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="27" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.26181817" vertical-offset="506" max-vertical-offset="1547">
+                <state line="51" column="36" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1547">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="userList.ftl" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="1.1127273" vertical-offset="153" max-vertical-offset="612">
                   <folding />
                 </state>
               </provider>
@@ -235,8 +220,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserRemoveController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
       </list>
     </option>
@@ -732,12 +718,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="&#10;bean&#10;User&#10;userList.&#10;beans&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;userLi&#10;UserDao&#10;pom&#10;bea&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;user&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db&#10;web" />
+    <property name="SearchEverywhereHistory" value="beans&#10;bea&#10;bean&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;userLi&#10;UserDao&#10;pom&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;user&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db&#10;web" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.project.web.user" />
       <recent name="pl.project.domain" />
       <recent name="pl.project.core.web.user" />
       <recent name="pl.project.core.user" />
@@ -969,7 +956,11 @@
       <created>1395091258650</created>
       <updated>1395091258650</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add checkbox with value == user.id">
+      <created>1395161021475</created>
+      <updated>1395161021475</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1057,7 +1048,8 @@
     <MESSAGE value="Display user list v0.2&#10;" />
     <MESSAGE value="Add beans config (null pointer on userList to fix).&#10;" />
     <MESSAGE value="Null pointer fixed. UserList display users.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Null pointer fixed. UserList display users.&#10;" />
+    <MESSAGE value="Add checkbox with value == user.id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add checkbox with value == user.id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1067,11 +1059,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="272" />
@@ -1402,36 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1522#1538#0" expanded="false" />
-            <element signature="e#1594#1612#0" expanded="false" />
-            <element signature="e#1927#1935#0" expanded="false" />
-            <element signature="e#3391#3392#0" expanded="false" />
-            <element signature="e#3425#3426#0" expanded="false" />
-            <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3530#3531#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="748">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1103#1127#0" expanded="false" />
-            <element signature="e#1338#1339#0" expanded="false" />
-            <element signature="e#1368#1369#0" expanded="false" />
-            <element signature="e#1419#1420#0" expanded="false" />
-            <element signature="e#1457#1458#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="19" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="697">
@@ -1439,30 +1396,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="11" selection-start="3417" selection-end="3417" vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="1513">
+        <state line="22" column="10" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
+        <state line="27" column="16" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="11" selection-start="4014" selection-end="4014" vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1547">
+        <state line="51" column="36" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-0.9034749" vertical-offset="591" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="489" selection-end="489" vertical-scroll-proportion="1.1814672" vertical-offset="0" max-vertical-offset="544">
+        <state line="27" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="1.1127273" vertical-offset="153" max-vertical-offset="612">
           <folding />
         </state>
       </provider>

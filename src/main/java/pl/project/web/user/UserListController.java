@@ -10,6 +10,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 import pl.project.core.user.UserDaoBean;
 import pl.project.domain.UserBean;
@@ -43,6 +45,12 @@ public class UserListController extends SimpleFormController {
         return result;
     }
 
+    public String removeAd(@RequestParam("user") long userId) {
+        UserBean ub = getUserDao().get(userId);
+        log.error(ub.getFirstName());
+        getUserDao().delete(ub);
+        return "redirect:/userList";
+    }
 
     public UserDaoBean getUserDao() {
         return userDao;

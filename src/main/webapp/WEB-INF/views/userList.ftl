@@ -18,10 +18,14 @@
 		</script>
     </head>
     <body>
-		<#list users as users>
-		    <input class="checkbox" type="checkbox" value="${users.id}"></input>
-		    ${users.firstName} <br>
-		</#list>
+    <form action="removeAd" method="POST">
+          <#list users as users>
+          	<input id="user" class="checkbox" type="checkbox" value="${users.id}"></input>
+          	${users.firstName} <br>
+          </#list>
+          <input type="submit" value="delete"/>
+    </form>
+
 
     </body>
 </html>
