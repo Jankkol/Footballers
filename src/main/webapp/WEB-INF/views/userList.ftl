@@ -18,14 +18,8 @@
 		</script>
     </head>
     <body>
-    	<#-- <#list modelik?keys as m>
-    		${m} = ${modelik[m].text} <br>
-		</#list>
-		<#if listka?size == 2>2<#else>nie 2</#if>
-    	<#list listka as l>
-    		${l} <br> 
-		</#list> -->
 		<#list users as users>
+		    <input class="checkbox" type="checkbox" value="${users.id}"></input>
 		    ${users.firstName} <br>
 		</#list>
 
