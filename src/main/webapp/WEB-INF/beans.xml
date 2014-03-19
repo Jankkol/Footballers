@@ -81,4 +81,7 @@
     <bean class="pl.project.web.user.UserListController">
         <property name="userDao" ref="userDao"></property>
     </bean>
+    <bean class="pl.project.web.user.UserRemoveController">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
 </beans>

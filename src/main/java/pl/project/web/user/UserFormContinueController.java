@@ -27,12 +27,12 @@ public class UserFormContinueController {
 		log.info("save");
 		return new ModelAndView(this.getView(), model);
 	}
-	
-	@RequestMapping(value = "/userRemove.htm")
+
+	/*@RequestMapping(value = "/userRemove.htm")
 	public ModelAndView remove(ModelMap model) {
 		log.info("remove");
 		return new ModelAndView(this.getView(), model);
-	}
+	} */
 
 	public String getView() {
 		return view;

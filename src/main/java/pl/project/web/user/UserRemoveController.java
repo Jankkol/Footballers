@@ -1,11 +1,5 @@
 package pl.project.web.user;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -16,33 +10,35 @@ import org.springframework.web.servlet.mvc.SimpleFormController;
 import pl.project.core.user.UserDaoBean;
 import pl.project.domain.UserBean;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 @Controller
-@RequestMapping(value = "/userList.htm")
-public class UserListController extends SimpleFormController {
+public class UserRemoveController extends SimpleFormController {
 
     private static final Logger log = LoggerFactory
-            .getLogger(UserListController.class);
+            .getLogger(UserRemoveController.class);
 
     private UserDaoBean userDao;
 
-    public UserListController() {
+    public UserRemoveController() {
         super();
         setCommandClass(UserData.class);
         setCommandName("form");
-        setFormView("userList");
+        setFormView("userRemove");
         setSuccessView("redirect:/userSave.htm");
     }
 
-    @Override
-    protected Map<String, List<UserBean>> referenceData(HttpServletRequest request) throws Exception {
-        Map<String, List<UserBean>> result = new HashMap<String, List<UserBean>>();
-
-        List<UserBean> users = userDao.getAllUsers();
-        log.error(users.get(0).getFirstName());
-        result.put("users", users);
-
-        return result;
+    //@RequestMapping(value = "/userRemove.htm", method = RequestMethod.POST)
+    public String removeAd(@RequestParam("user") long userId) {
+        log.error("Jestem przed getUserDao");
+        UserBean ub = getUserDao().get(userId);
+        log.error(ub.getFirstName() + "Jestem w userRemove");
+        getUserDao().delete(ub);
+        return "redirect:/userList";
     }
 
     public UserDaoBean getUserDao() {
