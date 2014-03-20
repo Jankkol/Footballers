@@ -41,4 +41,6 @@
     	<servlet-name>dispatcher</servlet-name>
    	 	<url-pattern>*.htm</url-pattern>
 	</servlet-mapping>
+
+
 </web-app>
