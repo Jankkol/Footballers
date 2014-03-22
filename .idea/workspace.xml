@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -112,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.ftl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="template.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="2406" selection-end="2406" vertical-scroll-proportion="1.71875" vertical-offset="0" max-vertical-offset="1258">
+            <state line="53" column="25" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-14.961538" vertical-offset="512" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -124,7 +125,7 @@
       <file leaf-file-name="userForm.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="19" selection-start="598" selection-end="598" vertical-scroll-proportion="-2.3076923" vertical-offset="331" max-vertical-offset="697">
+            <state line="23" column="19" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -148,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userList.ftl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="userList.ftl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="850">
+            <state line="48" column="21" selection-start="1654" selection-end="1654" vertical-scroll-proportion="1.505535" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -208,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserRemoveController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
       </list>
     </option>
   </component>
@@ -257,7 +258,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -712,7 +713,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -738,7 +739,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="web&#10;bean&#10;po&#10;beans&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;userLi&#10;UserDao&#10;pom&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;user&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
+    <property name="SearchEverywhereHistory" value="&#10;web&#10;bean&#10;po&#10;beans&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;userLi&#10;UserDao&#10;pom&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;user&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
@@ -791,19 +792,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -829,6 +817,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -998,7 +999,11 @@
       <created>1395320929409</created>
       <updated>1395320929409</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Example of template.">
+      <created>1395513629248</created>
+      <updated>1395513629248</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1026,8 +1031,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1045,13 +1050,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -1091,7 +1096,8 @@
     <MESSAGE value="Remove stil not working as expected." />
     <MESSAGE value="Bootstrap works !&#10;" />
     <MESSAGE value="Add template.ftl with connection to userList.ftl." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add template.ftl with connection to userList.ftl." />
+    <MESSAGE value="Example of template." />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of template." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1329,32 +1335,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="10" column="39" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.5135135" vertical-offset="28" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.5135135" vertical-offset="28" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="262">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="43" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding>
-            <marker date="1395317747596" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395317747596" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,9 +1371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="263">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="263" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
@@ -1416,7 +1411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="598" selection-end="598" vertical-scroll-proportion="-2.3076923" vertical-offset="331" max-vertical-offset="697">
+        <state line="23" column="19" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -1435,16 +1430,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="850">
+        <state line="53" column="25" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-14.961538" vertical-offset="512" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2406" selection-end="2406" vertical-scroll-proportion="1.71875" vertical-offset="0" max-vertical-offset="1258">
+        <state line="48" column="21" selection-start="1654" selection-end="1654" vertical-scroll-proportion="1.505535" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>

@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Bootstrap theme</a>
+            <a class="navbar-brand" href="#">Footballers</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -51,14 +51,7 @@
     </div>
 </div>
 <div class="container theme-showcase" role="main">
-    <div class="jumbotron">
-        <h1>Hello, world!</h1>
-
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a
-            jumbotron and three supporting pieces of content. Use it as a starting point to create something more
-            unique.</p>
-
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
+    <div class="content">
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
