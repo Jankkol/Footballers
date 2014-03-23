@@ -36,7 +36,7 @@ public class UserFormController extends SimpleFormController {
         setCommandClass(UserData.class);
         setCommandName("form");
         setFormView("userForm");
-        setSuccessView("redirect:/userSave.htm");
+        setSuccessView("redirect:/userList.htm");
     }
 
     @Override

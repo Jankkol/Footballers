@@ -18,13 +18,6 @@
 		</script>
     </head>
     <body>
-    	<#-- <#list modelik?keys as m>
-    		${m} = ${modelik[m].text} <br>
-		</#list>
-		<#if listka?size == 2>2<#else>nie 2</#if>
-    	<#list listka as l>
-    		${l} <br> 
-		</#list> -->
 		<form method="post" commandName="form">
 			<@spring.formInput 'form.bean.firstName', 'class="required" maxlength="255" '/>
 			<@spring.formInput 'form.bean.lastName', 'class="required" maxlength="255" '/>

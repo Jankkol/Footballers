@@ -20,21 +20,7 @@
     <![endif]-->
     <script type="text/javascript"
             src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript">
-			$(document).ready(function() {
-			
-				$('a.save-button').click(function(){
-					var form = $(this).closest('form');
-					form.submit();			
-				});
-			});
-
-
-
-
-
-
-    </script>
+    <script type="text/javascript"/>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
 <div class="content">
