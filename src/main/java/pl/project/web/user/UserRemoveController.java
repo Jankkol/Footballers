@@ -32,15 +32,6 @@ public class UserRemoveController extends SimpleFormController {
         setSuccessView("redirect:/userSave.htm");
     }
 
-    //@RequestMapping(value = "/userRemove.htm", method = RequestMethod.POST)
-    public String removeAd(@RequestParam("user") long userId) {
-        log.error("Jestem przed getUserDao");
-        UserBean ub = getUserDao().get(userId);
-        log.error(ub.getFirstName() + "Jestem w userRemove");
-        getUserDao().delete(ub);
-        return "redirect:/userList";
-    }
-
     public UserDaoBean getUserDao() {
         return userDao;
     }
