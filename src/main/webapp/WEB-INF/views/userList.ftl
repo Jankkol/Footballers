@@ -33,8 +33,8 @@
                     <tr>
                         <td><input id="user" class="checkbox" type="checkbox" name="user" value="${users.id}"></input>
                         </td>
-                        <td> ${users.firstName}</td>
-                        <td> ${users.lastName}</td>
+                        <td><a href="userForm.htm?id=${users.id}"> ${users.firstName}</a></td>
+                        <td><a href="userForm.htm?id=${users.id}"> ${users.lastName}</a></td>
                     </tr>
                 </#list>
                 </tbody>

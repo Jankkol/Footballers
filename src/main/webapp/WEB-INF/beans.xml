@@ -75,6 +75,7 @@
             <bean class="pl.project.web.user.UserFormValidator"/>
         </property>
         <property name="userService" ref="userService"></property>
+        <property name="userDao" ref="userDao"></property>
     </bean>
 
     <bean class="pl.project.web.user.UserFormContinueController"/>

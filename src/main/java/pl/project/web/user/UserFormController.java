@@ -8,6 +8,7 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
+import pl.project.core.user.UserDaoBean;
 import pl.project.core.user.UserService;
 import pl.project.domain.UserBean;
 
@@ -30,6 +31,7 @@ public class UserFormController extends SimpleFormController {
             .getLogger(UserFormController.class);
 
     private UserService userService;
+    private UserDaoBean userDao;
 
     public UserFormController() {
         super();
@@ -85,6 +87,8 @@ public class UserFormController extends SimpleFormController {
         UserBean ub = null;
         if (id != null && !"".equals(id)) {
             log.info("Dawaj obiekt po id z service i kopnij go do data.");
+            ub = getUserDao().getUser(id);
+            userData.setBean(ub);
             // return
         }
         if (ub == null) {
@@ -104,4 +108,11 @@ public class UserFormController extends SimpleFormController {
         this.userService = userService;
     }
 
+    public UserDaoBean getUserDao() {
+        return userDao;
+    }
+
+    public void setUserDao(UserDaoBean userDao) {
+        this.userDao = userDao;
+    }
 }
