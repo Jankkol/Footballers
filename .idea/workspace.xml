@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -70,40 +75,31 @@
       <file leaf-file-name="UserFormController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="14" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.4190141" vertical-offset="748" max-vertical-offset="1802">
+            <state line="69" column="30" selection-start="2348" selection-end="2348" vertical-scroll-proportion="2.4153006" vertical-offset="0" max-vertical-offset="1751">
               <folding>
-                <element signature="e#3836#3837#0" expanded="true" />
-                <element signature="e#3866#3867#0" expanded="true" />
-                <element signature="e#3917#3918#0" expanded="true" />
-                <element signature="e#3955#3956#0" expanded="true" />
+                <element signature="e#3728#3729#0" expanded="true" />
+                <element signature="e#3758#3759#0" expanded="true" />
+                <element signature="e#3809#3810#0" expanded="true" />
+                <element signature="e#3847#3848#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserListController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java">
+      <file leaf-file-name="AbstractDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="47" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1226#1250#0" expanded="false" />
-                <element signature="e#1460#1461#0" expanded="false" />
-                <element signature="e#1490#1491#0" expanded="false" />
-                <element signature="e#1541#1542#0" expanded="false" />
-                <element signature="e#1579#1580#0" expanded="false" />
-              </folding>
+            <state line="13" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserService.java">
+      <file leaf-file-name="AbstractDaoBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="35" column="47" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="799">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,9 +108,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserServiceBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractServiceBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="25" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,19 +143,8 @@
       <file leaf-file-name="UserDaoBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+            <state line="29" column="5" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,28 +154,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="71" column="0" selection-start="3558" selection-end="3558" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1581">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotServiceBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotServiceBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotDaoBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotDaoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="15" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="578">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -216,8 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotScoreBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userRemove.ftl" />
@@ -230,7 +216,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
       </list>
     </option>
@@ -1078,18 +1068,22 @@
       <created>1396590636788</created>
       <updated>1396590636788</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Should work(to test!)">
+      <created>1396590724907</created>
+      <updated>1396590724907</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1150,7 +1144,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Changes in DBSchema.&#10;" />
     <MESSAGE value="Add User classes." />
     <MESSAGE value="Changes in domain. Add ScoreBean." />
     <MESSAGE value="Add table many to many." />
@@ -1175,7 +1168,8 @@
     <MESSAGE value="Fix dropdown menu bug. New addUser look. &#10;" />
     <MESSAGE value="Edit user.&#10;" />
     <MESSAGE value="Add if (but not working)&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add if (but not working)&#10;" />
+    <MESSAGE value="Should work(to test!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should work(to test!)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1185,20 +1179,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liquibase/DBChanges.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
@@ -1231,15 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="33" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
@@ -1252,15 +1223,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.2.RELEASE/spring-webmvc-3.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/BaseCommandController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="22" selection-start="7452" selection-end="7452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="8" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.ftl">
@@ -1448,15 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="17" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
@@ -1478,15 +1431,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotDaoBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="15" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="578">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1521,21 +1465,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="47" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+        <state line="29" column="5" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="14" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.4190141" vertical-offset="748" max-vertical-offset="1802">
+        <state line="69" column="30" selection-start="2348" selection-end="2348" vertical-scroll-proportion="2.4153006" vertical-offset="0" max-vertical-offset="1751">
           <folding>
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#3866#3867#0" expanded="true" />
-            <element signature="e#3917#3918#0" expanded="true" />
-            <element signature="e#3955#3956#0" expanded="true" />
+            <element signature="e#3728#3729#0" expanded="true" />
+            <element signature="e#3758#3759#0" expanded="true" />
+            <element signature="e#3809#3810#0" expanded="true" />
+            <element signature="e#3847#3848#0" expanded="true" />
           </folding>
         </state>
       </provider>

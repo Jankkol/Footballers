@@ -73,10 +73,7 @@ public class UserFormController extends SimpleFormController {
         log.error("Tutaj zapisujesz " + formData.getBean().getFirstName() + ", "
                 + formData.getBean().getLastName()
                 + " przez service jesli obiekt jest nowy.");
-        if ( !userDao.isExist(formData.getBean().getId()))
-        userService.save(formData.getBean());
-        else
-        userDao.update(formData.getBean());
+        userService.saveOrUpdate(formData.getBean());
         return new ModelAndView(getSuccessView());
     }
 

@@ -30,6 +30,11 @@ public class AbstractDaoBean<B extends AbstractBean<ID>, ID extends Serializable
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+    @Override
+    public void saveOrUpdate(B b){
+        getHibernateTemplate().saveOrUpdate(b);
+    }
 	
 	/*@Override
 	public List<B> getAll() {

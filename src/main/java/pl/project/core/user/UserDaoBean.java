@@ -17,17 +17,6 @@ import pl.project.domain.UserBean;
 public class UserDaoBean extends AbstractDaoBean<UserBean, Long> implements
         UserDao {
 
-	/* @Override
-    public void save(UserBean User) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void update(UserBean User) {
-		// TODO Auto-generated method stub
-		
-	} */
 
     @Override
     public List<UserBean> getAllUsers() {

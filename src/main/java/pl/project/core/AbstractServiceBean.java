@@ -17,4 +17,7 @@ public class AbstractServiceBean<B extends AbstractBean<ID>, ID extends Serializ
 	public void save(B b) {
 		getDao().save(b);
 	}
+    public void saveOrUpdate(B b) {
+        getDao().saveOrUpdate(b);
+    }
 }
