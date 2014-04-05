@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 import pl.project.core.user.UserDaoBean;
+import pl.project.core.user.UserServiceBean;
 import pl.project.domain.UserBean;
 
 
@@ -24,7 +25,7 @@ public class UserListController extends SimpleFormController {
     private static final Logger log = LoggerFactory
             .getLogger(UserListController.class);
 
-    private UserDaoBean userDao;
+    private UserServiceBean userService;
 
     public UserListController() {
         super();
@@ -38,18 +39,18 @@ public class UserListController extends SimpleFormController {
     protected Map<String, List<UserBean>> referenceData(HttpServletRequest request) throws Exception {
         Map<String, List<UserBean>> result = new HashMap<String, List<UserBean>>();
 
-        List<UserBean> users = userDao.getAllUsers();
+        List<UserBean> users = userService.getAll();
         log.error(users.get(0).getFirstName());
         result.put("users", users);
 
         return result;
     }
 
-    public UserDaoBean getUserDao() {
-        return userDao;
+    public UserServiceBean getUserService() {
+        return userService;
     }
 
-    public void setUserDao(UserDaoBean userDao) {
-        this.userDao = userDao;
+    public void setUserService(UserServiceBean userService) {
+        this.userService = userService;
     }
 }

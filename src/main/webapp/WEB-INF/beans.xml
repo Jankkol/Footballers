@@ -75,12 +75,11 @@
             <bean class="pl.project.web.user.UserFormValidator"/>
         </property>
         <property name="userService" ref="userService"></property>
-        <property name="userDao" ref="userDao"></property>
     </bean>
 
     <bean class="pl.project.web.user.UserFormContinueController"/>
     <bean class="pl.project.web.user.UserListController">
-        <property name="userDao" ref="userDao"></property>
+        <property name="userService" ref="userService"></property>
     </bean>
     <bean class="pl.project.web.user.UserRemoveController">
         <property name="userDao" ref="userDao"></property>

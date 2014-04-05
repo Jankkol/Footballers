@@ -1,6 +1,7 @@
 package pl.project.core;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class AbstractServiceBean<B extends AbstractBean<ID>, ID extends Serializable>
 		implements AbstractService<B, ID> {
@@ -24,5 +25,9 @@ public class AbstractServiceBean<B extends AbstractBean<ID>, ID extends Serializ
     @Override
     public B get(String id) {
         return getDao().get(id);
+    }
+
+    public List<B> getAll(){
+        return getDao().getAll();
     }
 }
