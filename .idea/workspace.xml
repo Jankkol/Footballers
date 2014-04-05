@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDaoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamDaoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamServiceBean.java" />
-      <change type="DELETED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\domain\AwayTeamBean.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\domain\SpotScoreBean.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\domain\HomeTeamBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -130,10 +116,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScoreBean.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ScoreBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.46126762" vertical-offset="27" max-vertical-offset="595">
+            <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="14" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <folding>
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.29929578" vertical-offset="0" max-vertical-offset="568">
               <folding />
             </state>
           </provider>
@@ -144,26 +157,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="39" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamServiceBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamServiceBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -228,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
@@ -241,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
       </list>
     </option>
   </component>
@@ -1014,7 +1007,11 @@
       <created>1396685540650</created>
       <updated>1396685540650</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Changes in domains. Add new services. &#10;">
+      <created>1396728184490</created>
+      <updated>1396728184490</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1086,7 +1083,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Fix fields in domains. part2&#10;" />
     <MESSAGE value="Add user form and beans to xml conf." />
     <MESSAGE value="Add user form and beans to xml conf.&#10;" />
     <MESSAGE value="Change @Column to @JoinColumn. Change configuration beans + log.info to log.error." />
@@ -1111,7 +1107,8 @@
     <MESSAGE value="Add get method to abstract&#10;" />
     <MESSAGE value="Add getAll method to abstract&#10;" />
     <MESSAGE value="Remove dao from controllers, move isExist to abstract, clean project.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove dao from controllers, move isExist to abstract, clean project.&#10;" />
+    <MESSAGE value="Changes in domains. Add new services. &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in domains. Add new services. &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1354,42 +1351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="65" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding>
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,7 +1457,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.46126762" vertical-offset="27" max-vertical-offset="595">
+        <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.29929578" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>
