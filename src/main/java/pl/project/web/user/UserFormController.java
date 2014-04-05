@@ -87,7 +87,7 @@ public class UserFormController extends SimpleFormController {
         UserBean ub = null;
         if (id != null && !"".equals(id)) {
             log.info("Dawaj obiekt po id z service i kopnij go do data.");
-            ub = getUserDao().getUser(id);
+            ub = userService.get(id);
             userData.setBean(ub);
             // return
         }

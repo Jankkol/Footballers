@@ -1,15 +1,21 @@
 package pl.project.core;
 
 import java.io.Serializable;
+import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
 
 
 public class AbstractDaoBean<B extends AbstractBean<ID>, ID extends Serializable> extends HibernateDaoSupport 
 		implements AbstractDao<B, ID> {
-	
+
+    private Class<B> domainClass = (Class<B>) ((ParameterizedType) getClass()
+            .getGenericSuperclass()).getActualTypeArguments()[0];
+
 	@Transactional
 	public void save(B b) {
 		getHibernateTemplate().save(b);
@@ -34,6 +40,13 @@ public class AbstractDaoBean<B extends AbstractBean<ID>, ID extends Serializable
     @Override
     public void saveOrUpdate(B b){
         getHibernateTemplate().saveOrUpdate(b);
+    }
+
+    @Override
+    public B get(String id) {
+        List<B> users = getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(domainClass).add(Restrictions.eq("id", Long.parseLong(id))));
+        return users.get(0);
+
     }
 	
 	/*@Override
