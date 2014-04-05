@@ -37,10 +37,8 @@
             <list>
                 <value>pl.project.domain.SpotBean</value>
                 <value>pl.project.domain.UserBean</value>
-                <value>pl.project.domain.AwayTeamBean</value>
                 <value>pl.project.domain.TeamBean</value>
                 <value>pl.project.domain.ScoreBean</value>
-                <value>pl.project.domain.SpotScoreBean</value>
             </list>
         </property>
     </bean>
@@ -83,5 +81,19 @@
     </bean>
     <bean class="pl.project.web.user.UserRemoveController">
         <property name="userDao" ref="userDao"></property>
+    </bean>
+
+    <bean id="teamDao" class="pl.project.core.team.TeamDaoBean">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+    <bean id="teamService" class="pl.project.core.team.TeamServiceBean">
+        <property name="dao" ref="teamDao"></property>
+    </bean>
+
+    <bean id="scoreDao" class="pl.project.core.score.ScoreDaoBean">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+    <bean id="scoreService" class="pl.project.core.score.ScoreServiceBean">
+        <property name="dao" ref="scoreDao"></property>
     </bean>
 </beans>

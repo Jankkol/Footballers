@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -116,6 +116,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="beans.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="11" selection-start="4625" selection-end="4625" vertical-scroll-proportion="2.903169" vertical-offset="0" max-vertical-offset="1768">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ScoreBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,19 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamBean.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TeamBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.29929578" vertical-offset="0" max-vertical-offset="568">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="20" column="5" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -220,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
@@ -234,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
       </list>
     </option>
   </component>
@@ -698,7 +698,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="bean&#10;beans&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;pom&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
+    <property name="SearchEverywhereHistory" value="beans&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;pom&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
@@ -1011,7 +1011,11 @@
       <created>1396728184490</created>
       <updated>1396728184490</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fix in SpotBean.&#10;">
+      <created>1396728317142</created>
+      <updated>1396728317143</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1083,7 +1087,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Add user form and beans to xml conf." />
     <MESSAGE value="Add user form and beans to xml conf.&#10;" />
     <MESSAGE value="Change @Column to @JoinColumn. Change configuration beans + log.info to log.error." />
     <MESSAGE value="Add UserListController." />
@@ -1108,7 +1111,8 @@
     <MESSAGE value="Add getAll method to abstract&#10;" />
     <MESSAGE value="Remove dao from controllers, move isExist to abstract, clean project.&#10;" />
     <MESSAGE value="Changes in domains. Add new services. &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in domains. Add new services. &#10;" />
+    <MESSAGE value="Fix in SpotBean.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix in SpotBean.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1344,13 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -1480,7 +1477,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.29929578" vertical-offset="0" max-vertical-offset="568">
+        <state line="20" column="5" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="11" selection-start="4625" selection-end="4625" vertical-scroll-proportion="2.903169" vertical-offset="0" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
