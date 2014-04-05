@@ -38,7 +38,7 @@
                 <value>pl.project.domain.SpotBean</value>
                 <value>pl.project.domain.UserBean</value>
                 <value>pl.project.domain.AwayTeamBean</value>
-                <value>pl.project.domain.HomeTeamBean</value>
+                <value>pl.project.domain.TeamBean</value>
                 <value>pl.project.domain.ScoreBean</value>
                 <value>pl.project.domain.SpotScoreBean</value>
             </list>
