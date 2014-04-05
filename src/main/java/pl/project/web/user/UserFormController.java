@@ -31,7 +31,6 @@ public class UserFormController extends SimpleFormController {
             .getLogger(UserFormController.class);
 
     private UserService userService;
-    private UserDaoBean userDao;
 
     public UserFormController() {
         super();
@@ -108,11 +107,4 @@ public class UserFormController extends SimpleFormController {
         this.userService = userService;
     }
 
-    public UserDaoBean getUserDao() {
-        return userDao;
-    }
-
-    public void setUserDao(UserDaoBean userDao) {
-        this.userDao = userDao;
-    }
 }

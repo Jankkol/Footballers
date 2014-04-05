@@ -18,23 +18,7 @@ public class UserDaoBean extends AbstractDaoBean<UserBean, Long> implements
         UserDao {
 
 
-    @Override
-    public List<UserBean> getAllUsers() {
-        List<UserBean> users = getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(UserBean.class));
-        return users;
-    }
 
-    public UserBean getUser(String id) {
-        List<UserBean> users = getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(UserBean.class).add(Restrictions.eq("id", Long.parseLong(id))));
-        return users.get(0);
-    }
-
-    public boolean isExist(Long id) {
-        if (getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(UserBean.class).add(Restrictions.eq("id", id))).size() > 0) {
-            return true;
-        } else
-            return false;
-    }
 
 }
 

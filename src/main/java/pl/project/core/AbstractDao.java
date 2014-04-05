@@ -17,4 +17,6 @@ public abstract interface AbstractDao<B extends AbstractBean<ID>, ID extends Ser
     public abstract void saveOrUpdate(B bean);
 
     public abstract List<B> getAll();
+
+    public abstract boolean isExist(Long id);
 }

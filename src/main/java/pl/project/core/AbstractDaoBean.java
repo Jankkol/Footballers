@@ -31,29 +31,35 @@ public class AbstractDaoBean<B extends AbstractBean<ID>, ID extends Serializable
 		getHibernateTemplate().delete(b);
 	}
 
-	@Override
+    @Transactional
 	public B get(ID bean) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-    @Override
+    @Transactional
     public void saveOrUpdate(B b){
         getHibernateTemplate().saveOrUpdate(b);
     }
 
-    @Override
+    @Transactional
     public B get(String id) {
         List<B> users = getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(domainClass).add(Restrictions.eq("id", Long.parseLong(id))));
         return users.get(0);
 
     }
-	
-	@Override
+
+    @Transactional
 	public List<B> getAll() {
         List<B> users = getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(domainClass));
         return users;
-
 	}
+
+    public boolean isExist(Long id) {
+        if (getHibernateTemplate().findByCriteria(DetachedCriteria.forClass(domainClass).add(Restrictions.eq("id", id))).size() > 0) {
+            return true;
+        } else
+            return false;
+    }
 
 }
