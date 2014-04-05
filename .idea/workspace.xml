@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liquibase/DBSchema.xml" afterPath="$PROJECT_DIR$/liquibase/DBSchema.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -69,53 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TeamDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamDao.java">
+      <file leaf-file-name="userForm.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="33" column="25" selection-start="1082" selection-end="1205" vertical-scroll-proportion="-15.692307" vertical-offset="153" max-vertical-offset="765">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScoreDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScoreDaoBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDaoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScoreService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="35" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScoreServiceBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,12 +84,8 @@
       <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1768">
-              <folding>
-                <marker date="1396728462407" expanded="true" signature="1297:1438" placeholder="..." />
-                <marker date="1396728462407" expanded="true" signature="2423:2507" placeholder="..." />
-                <marker date="1396728462407" expanded="true" signature="4253:4320" placeholder="..." />
-              </folding>
+            <state line="84" column="59" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,16 +93,58 @@
       <file leaf-file-name="DBSchema.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liquibase/DBSchema.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="16" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1632">
+            <state line="39" column="16" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="SpotFormController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="278" column="10" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.79049295" vertical-offset="4277" max-vertical-offset="4845">
+            <state line="76" column="50" selection-start="2343" selection-end="2343" vertical-scroll-proportion="2.647541" vertical-offset="0" max-vertical-offset="1547">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotListController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="40" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+              <folding>
+                <element signature="e#1231#1255#0" expanded="true" />
+                <element signature="e#1424#1425#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spotList.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="3.9230769" vertical-offset="306" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spotForm.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="33" selection-start="250" selection-end="250" vertical-scroll-proportion="4.0" vertical-offset="240" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spotContinue.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -155,6 +154,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="34" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -173,14 +181,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/League.java" />
         <option value="$PROJECT_DIR$/liquibase/DBChanges.xml" />
         <option value="$PROJECT_DIR$/liquibase/db.changelog-master.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/SpotService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserService.java" />
@@ -199,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserRemoveController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDao.java" />
@@ -220,10 +223,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
         <option value="$PROJECT_DIR$/liquibase/DBSchema.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
       </list>
     </option>
   </component>
@@ -718,7 +726,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="pom&#10;beans&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
+    <property name="SearchEverywhereHistory" value="beans&#10;pom&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
@@ -728,16 +736,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.project.web.spot" />
       <recent name="pl.project.core.score" />
       <recent name="pl.project.core.team" />
       <recent name="pl.project.web.user" />
       <recent name="pl.project.domain" />
-      <recent name="pl.project.core.web.user" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\core\team" />
       <recent name="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\core" />
-      <recent name="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\a\Desktop\Footballers\Footballers\liquibase" />
     </key>
   </component>
@@ -1039,18 +1047,23 @@
       <created>1396728530164</created>
       <updated>1396728530164</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="DBShema changes">
+      <created>1396730052695</created>
+      <updated>1396730052695</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1063,12 +1076,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19410875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1111,7 +1123,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Change @Column to @JoinColumn. Change configuration beans + log.info to log.error." />
     <MESSAGE value="Add UserListController." />
     <MESSAGE value="Display user list.&#10;" />
     <MESSAGE value="Display user list v0.2&#10;" />
@@ -1136,7 +1147,8 @@
     <MESSAGE value="Changes in domains. Add new services. &#10;" />
     <MESSAGE value="Fix in SpotBean.&#10;" />
     <MESSAGE value="Add beans.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add beans.&#10;" />
+    <MESSAGE value="DBShema changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="DBShema changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1146,21 +1158,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE-sources.jar!/org/springframework/validation/beanvalidation/SpringConstraintValidatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
@@ -1171,11 +1168,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.2.RELEASE/spring-webmvc-3.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/SimpleFormController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="22" selection-start="5635" selection-end="5635" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="7548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
@@ -1221,13 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="7" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="578">
@@ -1259,13 +1244,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="38" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="-0.0" vertical-offset="136" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
@@ -1425,13 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="560" selection-end="560" vertical-scroll-proportion="0.5017361" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="21" selection-start="805" selection-end="805" vertical-scroll-proportion="0.4982639" vertical-offset="2" max-vertical-offset="731">
@@ -1480,20 +1451,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1768">
-          <folding>
-            <marker date="1396728462407" expanded="true" signature="1297:1438" placeholder="..." />
-            <marker date="1396728462407" expanded="true" signature="2423:2507" placeholder="..." />
-            <marker date="1396728462407" expanded="true" signature="4253:4320" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="72" selection-start="7797" selection-end="7797" vertical-scroll-proportion="5.878521" vertical-offset="1217" max-vertical-offset="4845">
           <folding />
         </state>
       </provider>
@@ -1505,9 +1472,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="278" column="10" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.79049295" vertical-offset="4277" max-vertical-offset="4845">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="40" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+          <folding>
+            <element signature="e#1231#1255#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="59" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="3.9230769" vertical-offset="306" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="25" selection-start="1082" selection-end="1205" vertical-scroll-proportion="-15.692307" vertical-offset="153" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="250" selection-end="250" vertical-scroll-proportion="4.0" vertical-offset="240" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="50" selection-start="2343" selection-end="2343" vertical-scroll-proportion="2.647541" vertical-offset="0" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>

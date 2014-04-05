@@ -64,6 +64,9 @@
     <bean id="userDao" class="pl.project.core.user.UserDaoBean">
         <property name="hibernateTemplate" ref="hibernateTemplate"></property>
     </bean>
+    <bean class="pl.project.web.spot.SpotListController">
+        <property name="spotService" ref="spotService"></property>
+    </bean>
     <bean id="userService" class="pl.project.core.user.UserServiceBean">
         <property name="dao" ref="userDao"></property>
     </bean>
