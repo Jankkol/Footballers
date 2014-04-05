@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liquibase/DBSchema.xml" afterPath="$PROJECT_DIR$/liquibase/DBSchema.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -80,9 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +102,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="35" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,15 +113,39 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1768">
+              <folding>
+                <marker date="1396728462407" expanded="true" signature="1297:1438" placeholder="..." />
+                <marker date="1396728462407" expanded="true" signature="2423:2507" placeholder="..." />
+                <marker date="1396728462407" expanded="true" signature="4253:4320" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBSchema.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liquibase/DBSchema.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="16" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="11" selection-start="4625" selection-end="4625" vertical-scroll-proportion="2.903169" vertical-offset="0" max-vertical-offset="1768">
+            <state line="278" column="10" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.79049295" vertical-offset="4277" max-vertical-offset="4845">
               <folding />
             </state>
           </provider>
@@ -129,42 +155,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-              <folding>
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamDaoBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamDaoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -199,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserFormValidator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.ftl" />
-        <option value="$PROJECT_DIR$/liquibase/DBSchema.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/AwayTeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotScoreBean.java" />
@@ -220,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/team/spot/SpotServiceBean.java" />
@@ -232,8 +220,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
+        <option value="$PROJECT_DIR$/liquibase/DBSchema.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
       </list>
     </option>
   </component>
@@ -669,6 +659,36 @@
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -698,7 +718,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="beans&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;pom&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
+    <property name="SearchEverywhereHistory" value="pom&#10;beans&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
@@ -1015,7 +1035,11 @@
       <created>1396728317142</created>
       <updated>1396728317143</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add beans.&#10;">
+      <created>1396728530164</created>
+      <updated>1396728530164</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1087,7 +1111,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Add user form and beans to xml conf.&#10;" />
     <MESSAGE value="Change @Column to @JoinColumn. Change configuration beans + log.info to log.error." />
     <MESSAGE value="Add UserListController." />
     <MESSAGE value="Display user list.&#10;" />
@@ -1112,7 +1135,8 @@
     <MESSAGE value="Remove dao from controllers, move isExist to abstract, clean project.&#10;" />
     <MESSAGE value="Changes in domains. Add new services. &#10;" />
     <MESSAGE value="Fix in SpotBean.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix in SpotBean.&#10;" />
+    <MESSAGE value="Add beans.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add beans.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1122,11 +1146,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE-sources.jar!/org/springframework/validation/beanvalidation/SpringConstraintValidatorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="13" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697" />
@@ -1157,13 +1176,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="10" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="331" selection-end="331" vertical-scroll-proportion="0.3090909" vertical-offset="0" max-vertical-offset="4845">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
@@ -1313,7 +1325,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="32" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1322,7 +1334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="36" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1344,13 +1356,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="36" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="996" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -1394,7 +1399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1413,6 +1418,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="158" selection-end="209" vertical-scroll-proportion="0.17708333" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="30" selection-start="560" selection-end="560" vertical-scroll-proportion="0.5017361" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="21" selection-start="805" selection-end="805" vertical-scroll-proportion="0.4982639" vertical-offset="2" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="35" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -1423,9 +1449,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,14 +1465,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="35" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/score/ScoreServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1768">
+          <folding>
+            <marker date="1396728462407" expanded="true" signature="1297:1438" placeholder="..." />
+            <marker date="1396728462407" expanded="true" signature="2423:2507" placeholder="..." />
+            <marker date="1396728462407" expanded="true" signature="4253:4320" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1459,32 +1498,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
+    <entry file="file://$PROJECT_DIR$/liquibase/DBSchema.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="39" column="16" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="11" selection-start="4625" selection-end="4625" vertical-scroll-proportion="2.903169" vertical-offset="0" max-vertical-offset="1768">
+        <state line="278" column="10" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.79049295" vertical-offset="4277" max-vertical-offset="4845">
           <folding />
         </state>
       </provider>

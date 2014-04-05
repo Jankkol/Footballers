@@ -12,6 +12,7 @@ public class TeamBean extends AbstractBean<Long> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
+    @Column(name = "USER")
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<UserBean> users;
 

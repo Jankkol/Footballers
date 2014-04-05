@@ -12,11 +12,15 @@ public class SpotBean extends AbstractBean<Long> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "TeamHome")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private TeamBean homeTeam;
+    @Column(name = "TeamAway")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private TeamBean awayTeam;
+    @Column(name = "Score")
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<ScoreBean> score;
 

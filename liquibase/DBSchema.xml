@@ -52,6 +52,9 @@
                 tableName="Spot"
                 tablespace="A String">
             <column name="id" type="int"/>
+            <column name="TeamHome" type="int"/>
+            <column name="TeamAway" type="int"/>
+            <column name="Score" type="int"/>
         </createTable>
         <addPrimaryKey
                 columnNames="id"
@@ -66,95 +69,23 @@
                 startWith="1"
                 tableName="Spot"/>
     </changeSet>
-    <changeSet author="jank" id="createTable-Team1">
+    <changeSet author="jank" id="createTable-Team">
         <createTable
-                tableName="TEAM1_HAS_SPOT">
+                tableName="TEAM">
             <column name="id" type="int"/>
-            <column name="SPOT_ID" type="int"/>
-            <column name="USER_ID" type="int"/>
+            <column name="USER" type="int"/>
         </createTable>
         <addPrimaryKey
                 columnNames="id"
-                tableName="TEAM1_HAS_SPOT"/>
-        <addForeignKeyConstraint baseColumnNames="SPOT_ID"
-                                 baseTableName="TEAM1_HAS_SPOT"
-                                 constraintName="fk_team1_spot"
-                                 deferrable="false"
-                                 initiallyDeferred="false"
-                                 onDelete="CASCADE"
-                                 onUpdate="RESTRICT"
-                                 referencedColumnNames="id"
-                                 referencedTableName="SPOT"/>
-        <addForeignKeyConstraint baseColumnNames="USER_ID"
-                                 baseTableName="TEAM1_HAS_SPOT"
-                                 constraintName="fk_team1_user"
-                                 deferrable="false"
-                                 initiallyDeferred="false"
-                                 onDelete="CASCADE"
-                                 onUpdate="RESTRICT"
-                                 referencedColumnNames="id"
-                                 referencedTableName="USER"/>
+                tableName="TEAM"/>
+        <addAutoIncrement
+                columnDataType="int"
+                columnName="id"
+                incrementBy="1"
+                startWith="1"
+                tableName="TEAM"/>
         <rollback></rollback>
     </changeSet>
-    <changeSet author="jank" id="createTable-Team2">
-        <createTable
-                tableName="TEAM2_HAS_SPOT">
-            <column name="id" type="int"/>
-            <column name="SPOT_ID" type="int"/>
-            <column name="USER_ID" type="int"/>
-        </createTable>
-        <addPrimaryKey
-                columnNames="id"
-                tableName="TEAM2_HAS_SPOT"/>
-        <addForeignKeyConstraint baseColumnNames="SPOT_ID"
-                                 baseTableName="TEAM2_HAS_SPOT"
-                                 constraintName="fk_team2_spot"
-                                 deferrable="false"
-                                 initiallyDeferred="false"
-                                 onDelete="CASCADE"
-                                 onUpdate="RESTRICT"
-                                 referencedColumnNames="id"
-                                 referencedTableName="SPOT"/>
-        <addForeignKeyConstraint baseColumnNames="USER_ID"
-                                 baseTableName="TEAM2_HAS_SPOT"
-                                 constraintName="fk_team2_user"
-                                 deferrable="false"
-                                 initiallyDeferred="false"
-                                 onDelete="CASCADE"
-                                 onUpdate="RESTRICT"
-                                 referencedColumnNames="id"
-                                 referencedTableName="USER"/>
-        <rollback></rollback>
-    </changeSet>
-    <changeSet author="jank" id="createTable-Spot-Score">
-        <createTable
-                tableName="SPOT_HAS_SCORE">
-            <column name="id" type="int"/>
-            <column name="SPOT_ID" type="int"/>
-            <column name="SCORE_ID" type="int"/>
-        </createTable>
-        <addPrimaryKey
-                columnNames="id"
-                tableName="SPOT_HAS_SCORE"/>
-        <addForeignKeyConstraint baseColumnNames="SPOT_ID"
-                                 baseTableName="SPOT_HAS_SCORE"
-                                 constraintName="fk_s_score"
-                                 deferrable="false"
-                                 initiallyDeferred="false"
-                                 onDelete="CASCADE"
-                                 onUpdate="RESTRICT"
-                                 referencedColumnNames="id"
-                                 referencedTableName="SPOT"/>
-        <addForeignKeyConstraint baseColumnNames="SCORE_ID"
-                                 baseTableName="SPOT_HAS_SCORE"
-                                 constraintName="fk_spot_score"
-                                 deferrable="false"
-                                 initiallyDeferred="false"
-                                 onDelete="CASCADE"
-                                 onUpdate="RESTRICT"
-                                 referencedColumnNames="id"
-                                 referencedTableName="SCORE"/>
-        <rollback></rollback>
-    </changeSet>
+
 
 </databaseChangeLog>
