@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 import pl.project.core.user.UserDaoBean;
+import pl.project.core.user.UserService;
 import pl.project.core.user.UserServiceBean;
 import pl.project.domain.UserBean;
 
@@ -25,7 +26,7 @@ public class UserListController extends SimpleFormController {
     private static final Logger log = LoggerFactory
             .getLogger(UserListController.class);
 
-    private UserServiceBean userService;
+    private UserService userService;
 
     public UserListController() {
         super();
@@ -46,11 +47,11 @@ public class UserListController extends SimpleFormController {
         return result;
     }
 
-    public UserServiceBean getUserService() {
+    public UserService getUserService() {
         return userService;
     }
 
-    public void setUserService(UserServiceBean userService) {
+    public void setUserService(UserService userService) {
         this.userService = userService;
     }
 }

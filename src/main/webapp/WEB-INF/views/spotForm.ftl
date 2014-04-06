@@ -21,21 +21,28 @@
 
 
 
+
+
     </script>
 </head>
 <body>
 <div class="content">
     <div class="jumbotron">
-    <form method="post" commandName="form">
-        <@spring.formInput 'form.bean.homeTeam', 'class="required" maxlength="255" '/>
-        <@spring.formInput 'form.bean.awayTeam', 'class="required" maxlength="255" '/>
-        <a class="save-button" href="#">
-            <button type="button" class="btn btn-success">
-                <span class="save">Save</span>
-            </button>
-        </a>
+        <form method="post" commandName="form">
+            <@spring.formInput 'form.bean.homeTeam', 'class="required" maxlength="255" '/>
+            <@spring.formInput 'form.bean.awayTeam', 'class="required" maxlength="255" '/>
+            <select id="form.teamBean.users">
+                <#list users as users>
+                    <option value="${users.id}">${users.firstName}</option>
+                </#list>
+            </select>
+            <a class="save-button" href="#">
+                <button type="button" class="btn btn-success">
+                    <span class="save">Save</span>
+                </button>
+            </a>
+        </form>
     </div>
 </div>
-</form>
 </body>
 </html>

@@ -18,6 +18,8 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 
 import pl.project.core.spot.SpotService;
+import pl.project.core.user.UserService;
+import pl.project.core.user.UserServiceBean;
 import pl.project.domain.SpotBean;
 import pl.project.domain.UserBean;
 
@@ -33,6 +35,7 @@ public class SpotFormController extends SimpleFormController {
 			.getLogger(SpotFormController.class);
 
 	private SpotService spotService;
+    private UserService userService;
 
 	public SpotFormController() {
 		super();
@@ -43,26 +46,15 @@ public class SpotFormController extends SimpleFormController {
 	}
 
 	@Override
-	protected Map<String, Object> referenceData(HttpServletRequest request,
+	protected Map<String, List<UserBean>> referenceData(HttpServletRequest request,
 			Object command, Errors errors) throws Exception {
-		log.info("referenceData");
-		Map<String, Object> model = new HashMap<String, Object>();
+        Map<String, List<UserBean>> result = new HashMap<String, List<UserBean>>();
 
-		Map<String, UserBean> modelik = new HashMap<String, UserBean>();
-		UserBean w = new UserBean();
-		w.setFirstName("Tekst do widoku jeden");
-		modelik.put("text1", w);
-		w = new UserBean();
-		w.setFirstName("Tekst do widoku dwa");
-		modelik.put("text2", w);
-		model.put("modelik", modelik);
+        List<UserBean> users = userService.getAll();
+        log.error(users.get(0).getFirstName());
+        result.put("users", users);
 
-		List<String> listka = new LinkedList<String>();
-		listka.add("Jeden");
-		listka.add("Dwa");
-		model.put("listka", listka);
-
-		return model;
+        return result;
 	}
 
 	@Override
@@ -105,4 +97,11 @@ public class SpotFormController extends SimpleFormController {
 		this.spotService = spotService;
 	}
 
+    public UserService getUserService() {
+        return userService;
+    }
+
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
 }

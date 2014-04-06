@@ -62,6 +62,7 @@
             <bean class="pl.project.web.spot.SpotFormValidator"/>
         </property>
         <property name="spotService" ref="spotService"></property>
+        <property name="userService" ref="userService"></property>
     </bean>
 
     <bean class="pl.project.web.spot.SpotFormContinueController"/>
