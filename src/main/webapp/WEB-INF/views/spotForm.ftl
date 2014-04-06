@@ -28,7 +28,7 @@
 </head>
 <body>
 <div class="content">
-    <div class="jumbotron">
+    <div class="text-center jumbotron">
         <form method="post" commandName="form">
             <h1>First team:</h1><br>
             <select name="team1user1" id="team1user1">

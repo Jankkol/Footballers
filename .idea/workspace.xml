@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -105,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpotFormController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.16393442" vertical-offset="637" max-vertical-offset="1615">
+            <state line="65" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1615">
               <folding>
                 <element signature="e#3228#3229#0" expanded="true" />
                 <element signature="e#3265#3266#0" expanded="true" />
@@ -173,10 +171,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spotForm.ftl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="spotForm.ftl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="21" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-21.576923" vertical-offset="272" max-vertical-offset="1190">
+            <state line="31" column="47" selection-start="851" selection-end="851" vertical-scroll-proportion="0.25" vertical-offset="442" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -252,9 +250,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
       </list>
     </option>
   </component>
@@ -1196,18 +1194,22 @@
       <created>1396810240441</created>
       <updated>1396810240441</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Spot save not working. Change spotData.&#10;">
+      <created>1396814297844</created>
+      <updated>1396814297844</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1268,7 +1270,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Null pointer fixed. UserList display users.&#10;" />
     <MESSAGE value="Add checkbox with value == user.id" />
     <MESSAGE value="Try to map view with controller(remove user)" />
     <MESSAGE value="Remove stil not working as expected." />
@@ -1293,7 +1294,8 @@
     <MESSAGE value="Add SpotData source." />
     <MESSAGE value="Selectbox with datasource added. To do: put it to command." />
     <MESSAGE value="Selectbox works correct. &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selectbox works correct. &#10;" />
+    <MESSAGE value="Spot save not working. Change spotData.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spot save not working. Change spotData.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1614,13 +1616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-21.576923" vertical-offset="272" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="19" selection-start="3127" selection-end="3127" vertical-scroll-proportion="19.615385" vertical-offset="1564" max-vertical-offset="1904">
@@ -1697,7 +1692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.16393442" vertical-offset="637" max-vertical-offset="1615">
+        <state line="65" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1615">
           <folding>
             <element signature="e#3228#3229#0" expanded="true" />
             <element signature="e#3265#3266#0" expanded="true" />
@@ -1706,6 +1701,13 @@
             <element signature="e#3401#3402#0" expanded="true" />
             <element signature="e#3447#3448#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="47" selection-start="851" selection-end="851" vertical-scroll-proportion="0.25" vertical-offset="442" max-vertical-offset="1190">
+          <folding />
         </state>
       </provider>
     </entry>
