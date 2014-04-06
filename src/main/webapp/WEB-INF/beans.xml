@@ -53,6 +53,10 @@
         <property name="dao" ref="spotDao"></property>
     </bean>
 
+    <bean id="spotData" class="pl.project.web.spot.SpotData">
+        <property name="userService" ref="userService"></property>
+    </bean>
+
     <bean class="pl.project.web.spot.SpotFormController">
         <property name="validator">
             <bean class="pl.project.web.spot.SpotFormValidator"/>

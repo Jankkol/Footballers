@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -75,7 +71,7 @@
       <file leaf-file-name="userForm.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="1082" selection-end="1205" vertical-scroll-proportion="-15.692307" vertical-offset="153" max-vertical-offset="765">
+            <state line="26" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="-8.5" vertical-offset="221" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -84,7 +80,7 @@
       <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="59" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
+            <state line="52" column="51" selection-start="2789" selection-end="2789" vertical-scroll-proportion="-9.538462" vertical-offset="636" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -99,11 +95,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpotFormController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="50" selection-start="2343" selection-end="2343" vertical-scroll-proportion="2.647541" vertical-offset="0" max-vertical-offset="1547">
+            <state line="94" column="9" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1547">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotData.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="35" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.39617488" vertical-offset="467" max-vertical-offset="833">
+              <folding>
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +155,7 @@
       <file leaf-file-name="spotForm.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="250" selection-end="250" vertical-scroll-proportion="4.0" vertical-offset="240" max-vertical-offset="782">
+            <state line="30" column="47" selection-start="967" selection-end="967" vertical-scroll-proportion="-8.423077" vertical-offset="291" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -145,15 +165,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScoreBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -181,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/liquibase/DBChanges.xml" />
         <option value="$PROJECT_DIR$/liquibase/db.changelog-master.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java" />
@@ -227,11 +237,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" />
       </list>
     </option>
   </component>
@@ -697,6 +708,112 @@
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="score" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -726,7 +843,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="beans&#10;pom&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
+    <property name="SearchEverywhereHistory" value="&#10;userF&#10;spotF&#10;beans&#10;pom&#10;bean&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;bea&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;spot&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
@@ -1051,7 +1168,11 @@
       <created>1396730052695</created>
       <updated>1396730052695</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Spot form changes.&#10;">
+      <created>1396732221261</created>
+      <updated>1396732221261</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1123,7 +1244,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Add UserListController." />
     <MESSAGE value="Display user list.&#10;" />
     <MESSAGE value="Display user list v0.2&#10;" />
     <MESSAGE value="Add beans config (null pointer on userList to fix).&#10;" />
@@ -1148,7 +1268,8 @@
     <MESSAGE value="Fix in SpotBean.&#10;" />
     <MESSAGE value="Add beans.&#10;" />
     <MESSAGE value="DBShema changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="DBShema changes" />
+    <MESSAGE value="Spot form changes.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spot form changes.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1158,13 +1279,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.2.RELEASE/spring-webmvc-3.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/SimpleFormController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="22" selection-start="5635" selection-end="5635" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="7548" />
@@ -1284,10 +1398,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="51" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="799">
           <folding>
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="false" />
+            <element signature="e#1554#1555#0" expanded="false" />
+            <element signature="e#1617#1618#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1492,13 +1606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="59" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="3.9230769" vertical-offset="306" max-vertical-offset="867">
@@ -1513,24 +1620,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="9" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="51" selection-start="2789" selection-end="2789" vertical-scroll-proportion="-9.538462" vertical-offset="636" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1082" selection-end="1205" vertical-scroll-proportion="-15.692307" vertical-offset="153" max-vertical-offset="765">
+        <state line="26" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="-8.5" vertical-offset="221" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="250" selection-end="250" vertical-scroll-proportion="4.0" vertical-offset="240" max-vertical-offset="782">
+        <state line="30" column="47" selection-start="967" selection-end="967" vertical-scroll-proportion="-8.423077" vertical-offset="291" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="50" selection-start="2343" selection-end="2343" vertical-scroll-proportion="2.647541" vertical-offset="0" max-vertical-offset="1547">
-          <folding />
+        <state line="43" column="35" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.39617488" vertical-offset="467" max-vertical-offset="833">
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
