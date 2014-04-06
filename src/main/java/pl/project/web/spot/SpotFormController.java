@@ -18,9 +18,12 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 
 import pl.project.core.spot.SpotService;
+import pl.project.core.team.TeamService;
 import pl.project.core.user.UserService;
 import pl.project.core.user.UserServiceBean;
+import pl.project.domain.ScoreBean;
 import pl.project.domain.SpotBean;
+import pl.project.domain.TeamBean;
 import pl.project.domain.UserBean;
 
 /**
@@ -51,7 +54,6 @@ public class SpotFormController extends SimpleFormController {
         Map<String, List<UserBean>> result = new HashMap<String, List<UserBean>>();
 
         List<UserBean> users = userService.getAll();
-        log.error(users.get(0).getFirstName());
         result.put("users", users);
 
         return result;
@@ -61,13 +63,17 @@ public class SpotFormController extends SimpleFormController {
 	protected ModelAndView onSubmit(HttpServletRequest request,
 			HttpServletResponse response, Object command, BindException errors)
 			throws Exception {
-		log.info("onSubmit");
+
 		SpotData formData = (SpotData) command;
-        log.error(formData.getTeam1().get(0).getId().toString());
-        log.error(formData.getTeam1().get(1).getId().toString());
-		//log.info("Tutaj zapisujesz " + formData.getBean().getRound()
-		//		+ " przez service jesli obiekt jest nowy.");
-		spotService.saveOrUpdate(formData.getBean());
+        TeamBean teamBean1 = new TeamBean();
+        teamBean1.getUsers().add(formData.getTeam1user1());
+        teamBean1.getUsers().add(formData.getTeam1user2());
+        TeamBean teamBean2 = new TeamBean();
+        teamBean2.getUsers().add(formData.getTeam2user1());
+        teamBean2.getUsers().add(formData.getTeam2user2());
+        formData.getBean().setAwayTeam(teamBean1);
+        formData.getBean().setAwayTeam(teamBean2);
+        spotService.saveOrUpdate(formData.getBean());
 		return new ModelAndView(getSuccessView());
 	}
 

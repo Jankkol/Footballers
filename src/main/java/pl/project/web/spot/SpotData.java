@@ -14,23 +14,41 @@ public class SpotData extends AbstractData<SpotBean> {
 
     private ScoreBean score;
     private UserServiceBean userService;
-    private List<UserBean> team1 = new LinkedList<UserBean>();
-    private List<UserBean> team2 = new LinkedList<UserBean>();
+    private UserBean team1user1 = new UserBean();
+    private UserBean team1user2 = new UserBean();
+    private UserBean team2user1 = new UserBean();
+    private UserBean team2user2 = new UserBean();
 
-    public List<UserBean> getTeam1() {
-        return team1;
+    public UserBean getTeam1user1() {
+        return team1user1;
     }
 
-    public void setTeam1(List<UserBean> team1) {
-        this.team1 = team1;
+    public void setTeam1user1(UserBean team1user1) {
+        this.team1user1 = team1user1;
     }
 
-    public List<UserBean> getTeam2() {
-        return team2;
+    public UserBean getTeam1user2() {
+        return team1user2;
     }
 
-    public void setTeam2(List<UserBean> team2) {
-        this.team2 = team2;
+    public void setTeam1user2(UserBean team1user2) {
+        this.team1user2 = team1user2;
+    }
+
+    public UserBean getTeam2user1() {
+        return team2user1;
+    }
+
+    public void setTeam2user1(UserBean team2user1) {
+        this.team2user1 = team2user1;
+    }
+
+    public UserBean getTeam2user2() {
+        return team2user2;
+    }
+
+    public void setTeam2user2(UserBean team2user2) {
+        this.team2user2 = team2user2;
     }
 
     public ScoreBean getScore() {
