@@ -29,13 +29,28 @@
 <div class="content">
     <div class="jumbotron">
         <form method="post" commandName="form">
-            <@spring.formInput 'form.bean.homeTeam', 'class="required" maxlength="255" '/>
-            <@spring.formInput 'form.bean.awayTeam', 'class="required" maxlength="255" '/>
-            <select id="form.teamBean.users">
+            <h1>First team:</h1><br>
+            <select name="team1" id="team1">
+            <#list users as users>
+                <option value="${users.id}">${users.firstName} ${users.lastName}</option>
+            </#list>
+            </select>
+            <select name="team1" id="team2">
                 <#list users as users>
-                    <option value="${users.id}">${users.firstName}</option>
+                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
                 </#list>
             </select>
+            <h1>Second Team:</h1><br>
+            <select name="team2" id="team3">
+                <#list users as users>
+                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
+                </#list>
+            </select>
+            <select name="team2" id="team4">
+                <#list users as users>
+                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
+                </#list>
+            </select><br>
             <a class="save-button" href="#">
                 <button type="button" class="btn btn-success">
                     <span class="save">Save</span>

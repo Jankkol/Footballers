@@ -7,21 +7,30 @@ import pl.project.domain.SpotBean;
 import pl.project.domain.TeamBean;
 import pl.project.domain.UserBean;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class SpotData extends AbstractData<SpotBean> {
 
-    private TeamBean teamBean;
     private ScoreBean score;
     private UserServiceBean userService;
-    private List<UserBean> users;
+    private List<UserBean> team1 = new LinkedList<UserBean>();
+    private List<UserBean> team2 = new LinkedList<UserBean>();
 
-    public TeamBean getTeamBean() {
-        return teamBean;
+    public List<UserBean> getTeam1() {
+        return team1;
     }
 
-    public void setTeamBean(TeamBean teamBean) {
-        this.teamBean = teamBean;
+    public void setTeam1(List<UserBean> team1) {
+        this.team1 = team1;
+    }
+
+    public List<UserBean> getTeam2() {
+        return team2;
+    }
+
+    public void setTeam2(List<UserBean> team2) {
+        this.team2 = team2;
     }
 
     public ScoreBean getScore() {
@@ -40,11 +49,4 @@ public class SpotData extends AbstractData<SpotBean> {
         this.userService = userService;
     }
 
-    public List<UserBean> getUsers() {
-        return userService.getAll();
-    }
-
-    public void setUsers(List<UserBean> users) {
-        this.users = users;
-    }
 }
