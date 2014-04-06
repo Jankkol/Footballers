@@ -73,7 +73,9 @@ public class SpotFormController extends SimpleFormController {
         teamBean2.getUsers().add(formData.getTeam2user2());
         formData.getBean().setAwayTeam(teamBean1);
         formData.getBean().setAwayTeam(teamBean2);
+        log.error("before");
         spotService.saveOrUpdate(formData.getBean());
+        log.error("after");
 		return new ModelAndView(getSuccessView());
 	}
 

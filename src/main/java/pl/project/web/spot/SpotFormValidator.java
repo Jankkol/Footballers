@@ -17,7 +17,7 @@ public class SpotFormValidator implements Validator {
 
 	@Override
 	public void validate(Object target, Errors errors) {
-		SpotData sb = (SpotData) target;
+		//SpotData sb = (SpotData) target;
 		//log.info("Tutaj walidacja: " + sb.getBean().getRound());
 		// to jakos inaczej sie robi... zobacz w um, chyba trzeba wypelnic
 		// errors i w controllerze sprawdzic (w referenceData albo czyms
