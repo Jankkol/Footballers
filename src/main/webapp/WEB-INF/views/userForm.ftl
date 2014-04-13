@@ -24,10 +24,12 @@
 </head>
 <body>
 <div class="content">
-    <div class="jumbotron">
+    <div class="text-center jumbotron">
         <form method="post" commandName="form">
+            <h6>First Name:</h6><br>
             <@spring.formInput 'form.bean.firstName', 'class="required" maxlength="255" '/><br>
-            <@spring.formInput 'form.bean.lastName', 'class="required" maxlength="255" '/><br>
+            <h6>Last Name:</h6><br>
+            <@spring.formInput 'form.bean.lastName', 'class="required" maxlength="255" '/><br><br>
             <a class="save-button" href="#">
                 <button type="button" class="btn btn-success">
                     <span class="save">Save</span>

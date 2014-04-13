@@ -55,6 +55,7 @@ public class SpotFormController extends SimpleFormController {
         Map<String, List<UserBean>> result = new HashMap<String, List<UserBean>>();
 
         List<UserBean> users = userService.getAll();
+
         result.put("users", users);
 
         return result;
@@ -102,16 +103,25 @@ public class SpotFormController extends SimpleFormController {
 		// Tutaj dosylaj parametr z listy (w przypadku edycji), jego brak znaczy
 		// ze tworzysz nowy
 		String id = request.getParameter("id");
-		SpotBean ub = null;
+		SpotBean spot = null;
 		if (id != null && !"".equals(id)) {
 			log.info("Dawaj obiekt po id z service i kopnij go do data.");
 			// return
+            spot = spotService.get(Long.valueOf(id));
+            spotData.setBean(spot);
+            spotData.setFirstTeamUserOne(spot.getHomeTeam().getFirstUser());
+            spotData.setFirstTeamUserTwo(spot.getHomeTeam().getSecondUser());
+            spotData.setSecondTeamUserOne(spot.getAwayTeam().getFirstUser());
+            spotData.setSecondTeamUserTwo(spot.getAwayTeam().getSecondUser());
+            spotData.setFirstMatch(spot.getScore().getFirstMatch());
+            spotData.setFirstMatch(spot.getScore().getSecondMatch());
+            spotData.setFirstMatch(spot.getScore().getThirdMatch());
 		}
-		if (ub == null) {
+		if (spot == null) {
 			log.info("Tworze nowy obiekt.");
-			ub = new SpotBean();
+			spot = new SpotBean();
 		}
-		spotData.setBean(ub);
+		spotData.setBean(spot);
 		return spotData;
 	}
 
@@ -138,4 +148,5 @@ public class SpotFormController extends SimpleFormController {
     public void setScoreService(ScoreService scoreService) {
         this.scoreService = scoreService;
     }
+
 }

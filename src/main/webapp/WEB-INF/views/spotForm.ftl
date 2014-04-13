@@ -47,9 +47,27 @@
                 </#list>
             </select><br><br>
             <h1>Scores:</h1><br>
-            <input name="firstMatch" type="text"/>
+            <select name="firstMatch">
+                <#assign list = ["np", "1:7", "2:7", "3:7", "4:7", "5:7", "6:7", "7:6", "7:5", "7:4", "7:3", "7:2", "7:1"]/>
+                <#list list as x>
+                    <option value="${x}">${x}</option>
+                </#list>
+            </select>
+            <select name="secondMatch">
+                <#assign list = ["np", "1:7", "2:7", "3:7", "4:7", "5:7", "6:7", "7:6", "7:5", "7:4", "7:3", "7:2", "7:1"]/>
+                <#list list as x>
+                    <option value="${x}">${x}</option>
+                </#list>
+            </select>
+            <select name="thirdMatch">
+                <#assign list = ["np", "1:7", "2:7", "3:7", "4:7", "5:7", "6:7", "7:6", "7:5", "7:4", "7:3", "7:2", "7:1"]/>
+                <#list list as x>
+                    <option value="${x}">${x}</option>
+                </#list>
+            </select>
+            <!--<input name="firstMatch" type="text"/>
             <input name="secondMatch" type="text"/>
-            <input name="thirdMatch" type="text"/><br>
+            <input name="thirdMatch" type="text"/>--><br><br>
             <a class="save-button" href="#">
                 <button type="button" class="btn btn-success">
                     <span class="save">Save</span>

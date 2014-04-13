@@ -20,6 +20,7 @@ public class SpotData extends AbstractData<SpotBean> {
     private String secondMatch;
     private String thirdMatch;
 
+
     public UserBean getFirstTeamUserOne() {
         return firstTeamUserOne;
     }
@@ -75,4 +76,5 @@ public class SpotData extends AbstractData<SpotBean> {
     public void setThirdMatch(String thirdMatch) {
         this.thirdMatch = thirdMatch;
     }
+
 }
