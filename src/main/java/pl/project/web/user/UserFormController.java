@@ -42,23 +42,9 @@ public class UserFormController extends SimpleFormController {
 	@Override
 	protected Map<String, Object> referenceData(HttpServletRequest request, Object command, Errors errors) throws Exception {
 		log.info("referenceData");
-		Map<String, Object> model = new HashMap<String, Object>();
+        Map<String, Object> model = new HashMap<String, Object>();
 
-		Map<String, UserBean> modelik = new HashMap<String, UserBean>();
-		UserBean w = new UserBean();
-		w.setFirstName("Tekst do widoku jeden");
-		modelik.put("text1", w);
-		w = new UserBean();
-		w.setFirstName("Tekst do widoku dwa");
-		modelik.put("text2", w);
-		model.put("modelik", modelik);
-
-		List<String> listka = new LinkedList<String>();
-		listka.add("Jeden");
-		listka.add("Dwa");
-		model.put("listka", listka);
-
-		return model;
+        return model;
 	}
 
 	@Override
@@ -74,12 +60,10 @@ public class UserFormController extends SimpleFormController {
 	@Override
 	protected Object formBackingObject(HttpServletRequest request) throws Exception {
 		UserData userData = new UserData();
-		// Tutaj dosylaj parametr z listy (w przypadku edycji), jego brak znaczy
-		// ze tworzysz nowy
 		String id = request.getParameter("id");
 		UserBean ub = null;
 		if (id != null && !"".equals(id)) {
-			log.info("Dawaj obiekt po id z service i kopnij go do data.");
+			log.info("Biore obiekt z serwisu.");
 			ub = userService.get(Long.valueOf(id));
 			userData.setBean(ub);
 			// return

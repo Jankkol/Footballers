@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8343bc-603d-4431-a14b-63b4e0e426fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/WelcomePageController.java" />
+      <change type="DELETED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\java\pl\project\web\user\UserRemoveController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\a\Desktop\Footballers\Footballers2\Footballers\src\main\webapp\WEB-INF\views\home.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormValidator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userContinue.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userContinue.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Footballers.iws" />
@@ -73,121 +82,9 @@
       <file leaf-file-name="UserFormController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="18" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1513">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="0" selection-start="5189" selection-end="5189" vertical-scroll-proportion="0.0" vertical-offset="1774" max-vertical-offset="2142">
+            <state line="70" column="25" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
               <folding>
-                <element signature="e#1744#1768#0" expanded="true" />
-                <element signature="e#5042#5043#0" expanded="true" />
-                <element signature="e#5077#5078#0" expanded="true" />
-                <element signature="e#5139#5140#0" expanded="true" />
-                <element signature="e#5187#5188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE-sources.jar!/org/springframework/validation/DataBinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="47" selection-start="10648" selection-end="10648" vertical-scroll-proportion="0.0" vertical-offset="3873" max-vertical-offset="11594">
-              <folding>
-                <element signature="e#0#27520#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#6769#6770#0" expanded="false" />
-                <element signature="e#6794#6795#0" expanded="false" />
-                <element signature="e#6879#6880#0" expanded="false" />
-                <element signature="e#6908#6909#0" expanded="false" />
-                <element signature="e#7931#7932#0" expanded="false" />
-                <element signature="e#7969#7970#0" expanded="false" />
-                <element signature="e#8258#8259#0" expanded="false" />
-                <element signature="e#8319#8320#0" expanded="false" />
-                <element signature="e#8441#8442#0" expanded="false" />
-                <element signature="e#8483#8484#0" expanded="false" />
-                <element signature="e#12606#12607#0" expanded="false" />
-                <element signature="e#12659#12660#0" expanded="false" />
-                <element signature="e#12770#12771#0" expanded="false" />
-                <element signature="e#12808#12809#0" expanded="false" />
-                <element signature="e#13450#13451#0" expanded="false" />
-                <element signature="e#13503#13504#0" expanded="false" />
-                <element signature="e#13614#13615#0" expanded="false" />
-                <element signature="e#13652#13653#0" expanded="false" />
-                <element signature="e#14535#14536#0" expanded="false" />
-                <element signature="e#14567#14568#0" expanded="false" />
-                <element signature="e#15490#15491#0" expanded="false" />
-                <element signature="e#15525#15526#0" expanded="false" />
-                <element signature="e#16449#16450#0" expanded="false" />
-                <element signature="e#16482#16483#0" expanded="false" />
-                <element signature="e#17941#17942#0" expanded="false" />
-                <element signature="e#17981#17982#0" expanded="false" />
-                <element signature="e#18450#18451#0" expanded="false" />
-                <element signature="e#18478#18479#0" expanded="false" />
-                <element signature="e#19311#19312#0" expanded="false" />
-                <element signature="e#19347#19348#0" expanded="false" />
-                <element signature="e#24023#24046#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userForm.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="95" selection-start="974" selection-end="974" vertical-scroll-proportion="-7.4615383" vertical-offset="299" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPropertyEditor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/UserPropertyEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-              <folding>
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
-                <element signature="e#1910#1911#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#1448#1464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,39 +93,83 @@
       <file leaf-file-name="UserData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+            <state line="11" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spotForm.ftl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+      <file leaf-file-name="WelcomePageController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/WelcomePageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="71" selection-start="395" selection-end="395" vertical-scroll-proportion="0.49707603" vertical-offset="0" max-vertical-offset="1445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpotBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="799">
+            <state line="17" column="8" selection-start="401" selection-end="401" vertical-scroll-proportion="0.72282606" vertical-offset="23" max-vertical-offset="425">
               <folding>
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spotList.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl">
+      <file leaf-file-name="template.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="46" selection-start="2054" selection-end="2054" vertical-scroll-proportion="-9.230769" vertical-offset="559" max-vertical-offset="1088">
+            <state line="36" column="21" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotFormController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="13" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2023">
+              <folding>
+                <element signature="e#1744#1768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="72" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2023">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpotFormContinueController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormContinueController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="40" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="14" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -247,11 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/SpotService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserServiceBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserFormContinueController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/web/user/UserFormValidator.java" />
@@ -260,17 +196,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/HomeTeamBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotScoreBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userRemove.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormContinueController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserRemoveController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/user/UserDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/AbstractServiceBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/team/spot/SpotServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/core/team/TeamServiceBean.java" />
@@ -286,18 +217,28 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormContinueController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/ScoreBean.java" />
         <option value="$PROJECT_DIR$/liquibase/DBSchema.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/domain/SpotBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotList.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserRemoveController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userContinue.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormContinueController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormContinueController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/project/web/WelcomePageController.java" />
       </list>
     </option>
   </component>
@@ -668,6 +609,36 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Footballers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -856,7 +827,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="SearchEverywhereHistory" value="s&#10;bean&#10;bea&#10;list&#10;beans&#10;spot&#10;team&#10;userF&#10;spotF&#10;pom&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
+    <property name="SearchEverywhereHistory" value="bea&#10;beans&#10;s&#10;bean&#10;list&#10;spot&#10;team&#10;userF&#10;spotF&#10;pom&#10;user&#10;f&#10;templat&#10;templa&#10;templ&#10;userLi&#10;web&#10;po&#10;User&#10;userList.&#10;UserLi&#10;UserData&#10;UserDa&#10;UserList&#10;Spot&#10;disp&#10;UserFo&#10;UserDao&#10;Validat&#10;ValidatorFactory&#10;UserFor&#10;remove&#10;continue&#10;UserF&#10;scor&#10;home&#10;away&#10;awa&#10;SCore&#10;db" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
@@ -1217,7 +1188,11 @@
       <created>1397398283573</created>
       <updated>1397398283573</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add selects for scores.&#10;">
+      <created>1397404768006</created>
+      <updated>1397404768006</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1290,7 +1265,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Add template.ftl with connection to userList.ftl." />
     <MESSAGE value="Example of template." />
     <MESSAGE value="UserList view designed." />
     <MESSAGE value="Bug with drop down menu to fix." />
@@ -1315,7 +1289,8 @@
     <MESSAGE value="Fix on spotList.ftl." />
     <MESSAGE value="Add UserProperty." />
     <MESSAGE value="Scores added to spot. Remove spot now working!&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scores added to spot. Remove spot now working!&#10;" />
+    <MESSAGE value="Add selects for scores.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add selects for scores.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1325,34 +1300,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDaoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="14" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/user/UserServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
@@ -1438,11 +1385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/core/spot/SpotService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="44" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
@@ -1478,23 +1420,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="9" selection-start="380" selection-end="380" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
@@ -1520,13 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/domain/TeamBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -1541,65 +1462,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
-          <folding>
-            <element signature="e#1231#1255#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="42" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserRemoveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormContinueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="6" selection-start="743" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormContinueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="48" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="e#1632#1633#0" expanded="false" />
-            <element signature="e#1666#1667#0" expanded="false" />
-            <element signature="e#1725#1726#0" expanded="false" />
-            <element signature="e#1771#1772#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userList.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="39" selection-start="1393" selection-end="1393" vertical-scroll-proportion="-8.423077" vertical-offset="410" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
@@ -1615,31 +1480,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="884">
           <folding>
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="11" selection-start="3511" selection-end="3511" vertical-scroll-proportion="-11.846154" vertical-offset="814" max-vertical-offset="2040">
-          <folding>
-            <marker date="1397392624999" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1397392624999" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1397392624999" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1397392624999" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1397392624999" expanded="true" signature="-1:-1" placeholder="..." />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
+            <element signature="e#725#726#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#859#860#0" expanded="false" />
+            <element signature="e#896#897#0" expanded="false" />
+            <element signature="e#929#930#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
+            <element signature="e#1025#1026#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1689,10 +1541,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="40" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="799">
           <folding>
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1009#1010#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1704,13 +1556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="18" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/UserPropertyEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
@@ -1718,73 +1563,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="12" column="35" selection-start="548" selection-end="548" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="0" selection-start="5189" selection-end="5189" vertical-scroll-proportion="0.0" vertical-offset="1774" max-vertical-offset="2142">
+        <state line="14" column="25" selection-start="566" selection-end="566" vertical-scroll-proportion="8.423077" vertical-offset="457" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="40" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="5" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userContinue.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="551" selection-end="551" vertical-scroll-proportion="-8.923077" vertical-offset="23" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotContinue.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="551" selection-end="551" vertical-scroll-proportion="-8.923077" vertical-offset="23" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormContinueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="5" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="25" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
           <folding>
-            <element signature="e#1744#1768#0" expanded="true" />
-            <element signature="e#5042#5043#0" expanded="true" />
-            <element signature="e#5077#5078#0" expanded="true" />
-            <element signature="e#5139#5140#0" expanded="true" />
-            <element signature="e#5187#5188#0" expanded="true" />
+            <element signature="e#1448#1464#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/user/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="0" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2023">
           <folding>
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#1744#1768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userForm.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/spot/SpotFormContinueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="95" selection-start="974" selection-end="974" vertical-scroll-proportion="-7.4615383" vertical-offset="299" max-vertical-offset="799">
+        <state line="37" column="0" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spotForm.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/template.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="71" selection-start="395" selection-end="395" vertical-scroll-proportion="0.49707603" vertical-offset="0" max-vertical-offset="1445">
+        <state line="36" column="21" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="901">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="72" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/project/web/WelcomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="401" selection-end="401" vertical-scroll-proportion="0.72282606" vertical-offset="23" max-vertical-offset="425">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

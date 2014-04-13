@@ -46,7 +46,7 @@ public class SpotFormController extends SimpleFormController {
 		setCommandClass(SpotData.class);
 		setCommandName("form");
 		setFormView("spotForm");
-		setSuccessView("redirect:/spotSave.htm");
+		setSuccessView("redirect:/spotList.htm");
 	}
 
 	@Override
@@ -100,13 +100,10 @@ public class SpotFormController extends SimpleFormController {
 	protected Object formBackingObject(HttpServletRequest request)
 			throws Exception {
 		SpotData spotData =new SpotData();
-		// Tutaj dosylaj parametr z listy (w przypadku edycji), jego brak znaczy
-		// ze tworzysz nowy
 		String id = request.getParameter("id");
 		SpotBean spot = null;
 		if (id != null && !"".equals(id)) {
-			log.info("Dawaj obiekt po id z service i kopnij go do data.");
-			// return
+            log.info("Biore obiekt z serwisu");
             spot = spotService.get(Long.valueOf(id));
             spotData.setBean(spot);
             spotData.setFirstTeamUserOne(spot.getHomeTeam().getFirstUser());
