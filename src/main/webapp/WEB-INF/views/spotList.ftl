@@ -15,6 +15,16 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript">
+			$(document).ready(function() {
+
+				$('input.btn-success').click(function(){
+					var form = $(this).closest('form');
+					form.attr("action", "<@spring.url '/spotRemove.htm' />");
+					form.submit();
+				});
+			});
+    </script>
 </head>
 <div class="content">
     <div class="jumbotron">
@@ -31,11 +41,11 @@
                 <tbody>
                 <#list spots as spots>
                     <tr>
-                        <td><input id="user" class="checkbox" type="checkbox" name="user" value="${spots.id}"></input>
+                        <td><input id="spot" class="checkbox" type="checkbox" name="spot" value="${spots.id}"></input>
                         </td>
-                        <td><a href="#"> ${spots.homeTeam.firstUser.firstName} ${spots.homeTeam.firstUser.lastName} ,
+                        <td><a href="spotForm.htm?id=${spots.id}"> ${spots.homeTeam.firstUser.firstName} ${spots.homeTeam.firstUser.lastName} ,
                             ${spots.homeTeam.secondUser.firstName} ${spots.homeTeam.secondUser.lastName} </a></td>
-                        <td><a href="#"> ${spots.awayTeam.firstUser.firstName} ${spots.awayTeam.firstUser.lastName} ,
+                        <td><a href="spotForm.htm?id=${spots.id}"> ${spots.awayTeam.firstUser.firstName} ${spots.awayTeam.firstUser.lastName} ,
                             ${spots.awayTeam.secondUser.firstName} ${spots.awayTeam.secondUser.lastName}</a></td>
                         <td><a href="#"> </a></td>
                     </tr>

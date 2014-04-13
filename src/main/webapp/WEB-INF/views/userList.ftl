@@ -30,7 +30,7 @@
 </head>
 <div class="content">
     <div class="jumbotron">
-        <form action="${form.mojaMetoda()}" method="POST">
+        <form action="#" method="POST">
             <table class="table table-hover">
                 <thead>
                 <tr>

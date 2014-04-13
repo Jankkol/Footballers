@@ -21,7 +21,13 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="spotForm.htm">Spot</a></li>
+                <li class="dropdown">
+                    <a href="spotList.htm" class="dropdown-toggle" data-toggle="dropdown">User<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="spotForm.htm">Add User</a></li>
+                        <li><a href="spotList.htm">User list</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown">
                     <a href="userList.htm" class="dropdown-toggle" data-toggle="dropdown">User<b class="caret"></b></a>
                     <ul class="dropdown-menu">

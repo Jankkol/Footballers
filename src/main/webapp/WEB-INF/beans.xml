@@ -23,10 +23,10 @@
         <property name="jndiName" value="footballersPool"/>
         <property name="expectedType" value="javax.sql.DataSource"/>
     </bean>
-   <!-- <bean id="dataSourceJndi" class="org.springframework.jndi.JndiObjectFactoryBean">
-        <property name="jndiName" value="PROJECT/V1/JDBC/DS"/>
-        <property name="expectedType" value="javax.sql.DataSource"/>
-    </bean> -->
+    <!-- <bean id="dataSourceJndi" class="org.springframework.jndi.JndiObjectFactoryBean">
+         <property name="jndiName" value="PROJECT/V1/JDBC/DS"/>
+         <property name="expectedType" value="javax.sql.DataSource"/>
+     </bean> -->
     <bean id="hibernateSessionFactory"
           class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
         <property name="dataSource" ref="dataSourceJndi"/>
@@ -68,7 +68,9 @@
         <property name="userService" ref="userService"></property>
     </bean>
 
-    <bean class="pl.project.web.spot.SpotFormContinueController"/>
+    <bean class="pl.project.web.spot.SpotFormContinueController">
+        <property name="spotService" ref="spotService"></property>
+    </bean>
     <bean id="userDao" class="pl.project.core.user.UserDaoBean">
         <property name="hibernateTemplate" ref="hibernateTemplate"></property>
     </bean>
