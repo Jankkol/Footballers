@@ -47,7 +47,7 @@
                             ${spots.homeTeam.secondUser.firstName} ${spots.homeTeam.secondUser.lastName} </a></td>
                         <td><a href="spotForm.htm?id=${spots.id}"> ${spots.awayTeam.firstUser.firstName} ${spots.awayTeam.firstUser.lastName} ,
                             ${spots.awayTeam.secondUser.firstName} ${spots.awayTeam.secondUser.lastName}</a></td>
-                        <td><a href="#"> </a></td>
+                        <td><a href="spotForm.htm?id=${spots.id}">${spots.score.firstMatch} , ${spots.score.secondMatch} , ${spots.score.thirdMatch} </a></td>
                     </tr>
                 </#list>
                 </tbody>

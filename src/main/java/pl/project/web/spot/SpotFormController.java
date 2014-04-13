@@ -18,8 +18,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 
+import pl.project.core.score.ScoreService;
 import pl.project.core.spot.SpotService;
 import pl.project.core.user.UserService;
+import pl.project.domain.ScoreBean;
 import pl.project.domain.SpotBean;
 import pl.project.domain.TeamBean;
 import pl.project.domain.UserBean;
@@ -37,6 +39,7 @@ public class SpotFormController extends SimpleFormController {
 
 	private SpotService spotService;
     private UserService userService;
+    private ScoreService scoreService;
 
 	public SpotFormController() {
 		super();
@@ -78,8 +81,16 @@ public class SpotFormController extends SimpleFormController {
         TeamBean teamBean2 = new TeamBean();
         teamBean2.setFirstUser(formData.getSecondTeamUserOne());
         teamBean2.setSecondUser(formData.getSecondTeamUserTwo());
+
+        ScoreBean score = new ScoreBean();
+        score.setFirstMatch(formData.getFirstMatch());
+        score.setSecondMatch(formData.getSecondMatch());
+        score.setThirdMatch(formData.getThirdMatch());
+
         formData.getBean().setHomeTeam(teamBean1);
         formData.getBean().setAwayTeam(teamBean2);
+        formData.getBean().setScore(score);
+
         spotService.saveOrUpdate(formData.getBean());
 		return new ModelAndView(getSuccessView());
 	}
@@ -118,5 +129,13 @@ public class SpotFormController extends SimpleFormController {
 
     public void setUserService(UserService userService) {
         this.userService = userService;
+    }
+
+    public ScoreService getScoreService() {
+        return scoreService;
+    }
+
+    public void setScoreService(ScoreService scoreService) {
+        this.scoreService = scoreService;
     }
 }

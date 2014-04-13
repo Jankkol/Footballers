@@ -20,9 +20,9 @@ public class SpotBean extends AbstractBean<Long> {
 	@JoinColumn(name = "TeamAway")
 	@OneToOne(cascade = CascadeType.ALL)
 	private TeamBean awayTeam;
-	@Column(name = "Score")
-	@OneToMany(cascade = CascadeType.ALL)
-	private List<ScoreBean> score;
+	@JoinColumn(name = "Score")
+	@OneToOne(cascade = CascadeType.ALL)
+	private ScoreBean score;
 
 	@Override
 	public Long getId() {
@@ -45,11 +45,11 @@ public class SpotBean extends AbstractBean<Long> {
 		this.awayTeam = awayTeam;
 	}
 
-	public List<ScoreBean> getScore() {
-		return score;
-	}
+    public ScoreBean getScore() {
+        return score;
+    }
 
-	public void setScore(List<ScoreBean> score) {
-		this.score = score;
-	}
+    public void setScore(ScoreBean score) {
+        this.score = score;
+    }
 }

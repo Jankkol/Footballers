@@ -11,8 +11,9 @@
             <column name="ID" type="BIGINT">
 				<constraints nullable="false" />
 			</column>
-            <column name="HOME_SCORE" type="int"/>
-            <column name="AWAY_SCORE" type="int"/>
+            <column name="FIRST_MATCH" type="varchar(5)"/>
+            <column name="SECOND_MATCH" type="varchar(5)"/>
+            <column name="THIRD_MATCH" type="varchar(5)"/>
         </createTable>
         <addPrimaryKey
                 columnNames="id"

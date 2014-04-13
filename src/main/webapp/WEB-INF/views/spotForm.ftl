@@ -46,6 +46,10 @@
                     <option value="${user.id}">${user.firstName} ${user.lastName}</option>
                 </#list>
             </select><br><br>
+            <h1>Scores:</h1><br>
+            <input name="firstMatch" type="text"/>
+            <input name="secondMatch" type="text"/>
+            <input name="thirdMatch" type="text"/><br>
             <a class="save-button" href="#">
                 <button type="button" class="btn btn-success">
                     <span class="save">Save</span>

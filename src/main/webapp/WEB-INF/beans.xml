@@ -59,13 +59,19 @@
     <bean id="spotService" class="pl.project.core.spot.SpotServiceBean">
         <property name="dao" ref="spotDao"></property>
     </bean>
-
+    <bean id="scoreDao" class="pl.project.core.score.ScoreDaoBean">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+    <bean id="scoreService" class="pl.project.core.score.ScoreServiceBean">
+        <property name="dao" ref="scoreDao"></property>
+    </bean>
     <bean class="pl.project.web.spot.SpotFormController">
         <property name="validator">
             <bean class="pl.project.web.spot.SpotFormValidator"/>
         </property>
         <property name="spotService" ref="spotService"></property>
         <property name="userService" ref="userService"></property>
+        <property name="scoreService" ref="scoreService"></property>
     </bean>
 
     <bean class="pl.project.web.spot.SpotFormContinueController">
@@ -105,10 +111,5 @@
         <property name="dao" ref="teamDao"></property>
     </bean>
 
-    <bean id="scoreDao" class="pl.project.core.score.ScoreDaoBean">
-        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
-    </bean>
-    <bean id="scoreService" class="pl.project.core.score.ScoreServiceBean">
-        <property name="dao" ref="scoreDao"></property>
-    </bean>
+
 </beans>

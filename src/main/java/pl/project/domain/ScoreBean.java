@@ -13,30 +13,39 @@ public class ScoreBean extends AbstractBean<Long> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-    @Column(name = "HOME_SCORE")
-    private int homeScore;
-    @Column(name = "AWAY_SCORE")
-    private int awayScore;
+    @Column(name = "FIRST_MATCH")
+    private String firstMatch;
+    @Column(name = "SECOND_MATCH")
+    private String secondMatch;
+    @Column(name = "THIRD_MATCH")
+    private String thirdMatch;
 
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-    public int getHomeScore() {
-        return homeScore;
+    public String getFirstMatch() {
+        return firstMatch;
     }
 
-    public void setHomeScore(int homeScore) {
-        this.homeScore = homeScore;
+    public void setFirstMatch(String firstMatch) {
+        this.firstMatch = firstMatch;
     }
 
-    public int getAwayScore() {
-        return awayScore;
+    public String getSecondMatch() {
+        return secondMatch;
     }
 
-    public void setAwayScore(int awayScore) {
-        this.awayScore = awayScore;
+    public void setSecondMatch(String secondMatch) {
+        this.secondMatch = secondMatch;
     }
 
+    public String getThirdMatch() {
+        return thirdMatch;
+    }
+
+    public void setThirdMatch(String thirdMatch) {
+        this.thirdMatch = thirdMatch;
+    }
 }
