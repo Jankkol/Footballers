@@ -187,6 +187,11 @@
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
 		</dependency>
+		<!--<dependency>
+			<groupId>ojdbc6</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>12.1.0.1</version>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<plugins>
@@ -270,6 +275,22 @@
 				<liquibase.url>jdbc:hsqldb:hsql://localhost/</liquibase.url>
 				<liquibase.username>SA</liquibase.username>
 				<liquibase.password></liquibase.password>
+				<liquibase.verbose>true</liquibase.verbose>
+				<liquibase.dropFirst>false</liquibase.dropFirst>
+				<liquibase.promptOnNonLocalDatabase>false</liquibase.promptOnNonLocalDatabase>
+			</properties>
+		</profile>
+		<profile>
+			<id>liquibase.oracle</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<properties>
+				<liquibase.driver>oracle.jdbc.OracleDriver</liquibase.driver>
+				<liquibase.changeLogFile>liquibase/db.changelog-master.xml</liquibase.changeLogFile>
+				<liquibase.url>jdbc:oracle:thin:@localhost:1521:oracleDB</liquibase.url>
+				<liquibase.username>oracleDB</liquibase.username>
+				<liquibase.password>qazwsxedc</liquibase.password>
 				<liquibase.verbose>true</liquibase.verbose>
 				<liquibase.dropFirst>false</liquibase.dropFirst>
 				<liquibase.promptOnNonLocalDatabase>false</liquibase.promptOnNonLocalDatabase>

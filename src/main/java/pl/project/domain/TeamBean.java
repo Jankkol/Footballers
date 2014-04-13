@@ -3,29 +3,44 @@ package pl.project.domain;
 import pl.project.core.AbstractBean;
 
 import javax.persistence.*;
+
 import java.util.List;
 
 @Entity
-@Table(name = "TEAM1_HAS_SPOT")
+@Table(name = "TEAM")
 public class TeamBean extends AbstractBean<Long> {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "ID")
 	private Long id;
-    @Column(name = "USER")
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<UserBean> users;
+
+	@ManyToOne
+    @JoinColumn(name = "FIRST_USER", nullable = true)
+    private UserBean firstUsers;
+	
+	@ManyToOne
+    @JoinColumn(name = "SECOND_USER", nullable = true)
+    private UserBean secondUser;
 
 	@Override
 	public Long getId() {
 		return id;
 	}
 
-    public List<UserBean> getUsers() {
-        return users;
-    }
+	public UserBean getFirstUsers() {
+		return firstUsers;
+	}
 
-    public void setUsers(List<UserBean> users) {
-        this.users = users;
-    }
+	public void setFirstUsers(UserBean firstUsers) {
+		this.firstUsers = firstUsers;
+	}
+
+	public UserBean getSecondUser() {
+		return secondUser;
+	}
+
+	public void setSecondUser(UserBean secondUser) {
+		this.secondUser = secondUser;
+	}
 }

@@ -13,28 +13,21 @@ import javax.persistence.ManyToOne;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
-
-@Entity(name = "USER")
+@Entity
+@Table(name = "APP_USER")
 public class UserBean extends AbstractBean<Long> {
 
+	private static final long serialVersionUID = 1L;
 	@Id
+    @Column(name = "ID")
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	@Column(name = "FIRST_NAME")
 	private String firstName;
 	@Column(name = "LAST_NAME")
 	private String lastName;
-
-	public UserBean(Long id, String firstName, String lastName) {
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-	}
-
-	public UserBean() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public Long getId() {
 		return id;

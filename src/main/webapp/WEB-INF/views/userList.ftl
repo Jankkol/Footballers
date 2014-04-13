@@ -16,6 +16,17 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
+	<script type="text/javascript">
+			$(document).ready(function() {
+			
+				$('input.btn-success').click(function(){
+					var form = $(this).closest('form');
+					form.attr("action", "<@spring.url '/userRemove.htm' />");
+					form.submit();			
+				});
+			});
+    </script>
+
 </head>
 <div class="content">
     <div class="jumbotron">
@@ -31,7 +42,7 @@
                 <tbody>
                 <#list users as users>
                     <tr>
-                        <td><input id="user" class="checkbox" type="checkbox" name="user" value="${users.id}"></input>
+                        <td><input id="user" class="checkbox" type="checkbox" name="user" value="${users.id}"/>
                         </td>
                         <td><a href="userForm.htm?id=${users.id}"> ${users.firstName}</a></td>
                         <td><a href="userForm.htm?id=${users.id}"> ${users.lastName}</a></td>

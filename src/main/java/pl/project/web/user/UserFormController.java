@@ -27,84 +27,78 @@ import java.util.Map;
 @Controller
 @RequestMapping(value = "/userForm.htm")
 public class UserFormController extends SimpleFormController {
-    private static final Logger log = LoggerFactory
-            .getLogger(UserFormController.class);
+	private static final Logger log = LoggerFactory.getLogger(UserFormController.class);
 
-    private UserService userService;
+	private UserService userService;
 
-    public UserFormController() {
-        super();
-        setCommandClass(UserData.class);
-        setCommandName("form");
-        setFormView("userForm");
-        setSuccessView("redirect:/userList.htm");
-    }
+	public UserFormController() {
+		super();
+		setCommandClass(UserData.class);
+		setCommandName("form");
+		setFormView("userForm");
+		setSuccessView("redirect:/userList.htm");
+	}
 
-    @Override
-    protected Map<String, Object> referenceData(HttpServletRequest request,
-                                                Object command, Errors errors) throws Exception {
-        log.info("referenceData");
-        Map<String, Object> model = new HashMap<String, Object>();
+	@Override
+	protected Map<String, Object> referenceData(HttpServletRequest request, Object command, Errors errors) throws Exception {
+		log.info("referenceData");
+		Map<String, Object> model = new HashMap<String, Object>();
 
-        Map<String, UserBean> modelik = new HashMap<String, UserBean>();
-        UserBean w = new UserBean();
-        w.setFirstName("Tekst do widoku jeden");
-        modelik.put("text1", w);
-        w = new UserBean();
-        w.setFirstName("Tekst do widoku dwa");
-        modelik.put("text2", w);
-        model.put("modelik", modelik);
+		Map<String, UserBean> modelik = new HashMap<String, UserBean>();
+		UserBean w = new UserBean();
+		w.setFirstName("Tekst do widoku jeden");
+		modelik.put("text1", w);
+		w = new UserBean();
+		w.setFirstName("Tekst do widoku dwa");
+		modelik.put("text2", w);
+		model.put("modelik", modelik);
 
-        List<String> listka = new LinkedList<String>();
-        listka.add("Jeden");
-        listka.add("Dwa");
-        model.put("listka", listka);
+		List<String> listka = new LinkedList<String>();
+		listka.add("Jeden");
+		listka.add("Dwa");
+		model.put("listka", listka);
 
-        return model;
-    }
+		return model;
+	}
 
-    @Override
-    protected ModelAndView onSubmit(HttpServletRequest request,
-                                    HttpServletResponse response, Object command, BindException errors)
-            throws Exception {
-        log.error("onSubmit");
-        UserData formData = (UserData) command;
-        log.error("Tutaj zapisujesz " + formData.getBean().getFirstName() + ", "
-                + formData.getBean().getLastName()
-                + " przez service jesli obiekt jest nowy.");
-        userService.saveOrUpdate(formData.getBean());
-        return new ModelAndView(getSuccessView());
-    }
+	@Override
+	protected ModelAndView onSubmit(HttpServletRequest request, HttpServletResponse response, Object command, BindException errors) throws Exception {
+		log.error("onSubmit");
+		UserData formData = (UserData) command;
+		log.error("Tutaj zapisujesz " + formData.getBean().getFirstName() + ", " + formData.getBean().getLastName()
+				+ " przez service jesli obiekt jest nowy.");
+		userService.saveOrUpdate(formData.getBean());
+		return new ModelAndView(getSuccessView());
+	}
 
-    @Override
-    protected Object formBackingObject(HttpServletRequest request)
-            throws Exception {
-        UserData userData = new UserData();
-        // Tutaj dosylaj parametr z listy (w przypadku edycji), jego brak znaczy
-        // ze tworzysz nowy
-        String id = request.getParameter("id");
-        UserBean ub = null;
-        if (id != null && !"".equals(id)) {
-            log.info("Dawaj obiekt po id z service i kopnij go do data.");
-            ub = userService.get(id);
-            userData.setBean(ub);
-            // return
-        }
-        if (ub == null) {
-            if (ub == null)
-                log.info("Tworze nowy obiekt.");
-            ub = new UserBean();
-        }
-        userData.setBean(ub);
-        return userData;
-    }
+	@Override
+	protected Object formBackingObject(HttpServletRequest request) throws Exception {
+		UserData userData = new UserData();
+		// Tutaj dosylaj parametr z listy (w przypadku edycji), jego brak znaczy
+		// ze tworzysz nowy
+		String id = request.getParameter("id");
+		UserBean ub = null;
+		if (id != null && !"".equals(id)) {
+			log.info("Dawaj obiekt po id z service i kopnij go do data.");
+			ub = userService.get(Long.valueOf(id));
+			userData.setBean(ub);
+			// return
+		}
+		if (ub == null) {
+			if (ub == null)
+				log.info("Tworze nowy obiekt.");
+			ub = new UserBean();
+		}
+		userData.setBean(ub);
+		return userData;
+	}
 
-    public UserService getUserService() {
-        return userService;
-    }
+	public UserService getUserService() {
+		return userService;
+	}
 
-    public void setUserService(UserService userService) {
-        this.userService = userService;
-    }
+	public void setUserService(UserService userService) {
+		this.userService = userService;
+	}
 
 }

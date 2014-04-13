@@ -18,12 +18,6 @@
 					form.submit();			
 				});
 			});
-
-
-
-
-
-
     </script>
 </head>
 <body>
@@ -31,26 +25,25 @@
     <div class="text-center jumbotron">
         <form method="post" commandName="form">
             <h1>First team:</h1><br>
-            <select name="team1user1" id="team1user1">
-                <#list users as users>
-                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
+            <select name="firstTeamUserOne">
+                <#list users as user>
+                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
                 </#list>
             </select>
-            <select name="team1user2" id="team1user2">
-                <#list users as users>
-                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
+            <select name="firstTeamUserTwo">
+                <#list users as user>
+                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
+                </#list>
+            </select><br><br>
+            <h1>Second team:</h1><br>
+            <select name="secondTeamUserOne">
+                <#list users as user>
+                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
                 </#list>
             </select>
-
-            <h1>Second Team:</h1><br>
-            <select name="team2user1" id="team2user1">
-                <#list users as users>
-                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
-                </#list>
-            </select>
-            <select name="team2user2" id="team2user2">
-                <#list users as users>
-                    <option value="${users.id}">${users.firstName} ${users.lastName}</option>
+            <select name="secondTeamUserTwo">
+                <#list users as user>
+                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
                 </#list>
             </select><br><br>
             <a class="save-button" href="#">

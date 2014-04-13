@@ -1,7 +1,7 @@
 package pl.project.web.spot;
 
+import java.beans.PropertyEditorSupport;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -13,15 +13,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindException;
 import org.springframework.validation.Errors;
+import org.springframework.web.bind.ServletRequestDataBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 
 import pl.project.core.spot.SpotService;
-import pl.project.core.team.TeamService;
 import pl.project.core.user.UserService;
-import pl.project.core.user.UserServiceBean;
-import pl.project.domain.ScoreBean;
 import pl.project.domain.SpotBean;
 import pl.project.domain.TeamBean;
 import pl.project.domain.UserBean;
@@ -58,6 +56,14 @@ public class SpotFormController extends SimpleFormController {
 
         return result;
 	}
+	
+	@Override
+    protected void initBinder(final HttpServletRequest request, final ServletRequestDataBinder binder) throws Exception {
+        binder.registerCustomEditor(UserBean.class, "firstTeamUserOne", new UserPropertyEditor(userService));
+        binder.registerCustomEditor(UserBean.class, "firstTeamUserTwo", new UserPropertyEditor(userService));
+        binder.registerCustomEditor(UserBean.class, "secondTeamUserOne", new UserPropertyEditor(userService));
+        binder.registerCustomEditor(UserBean.class, "secondTeamUserTwo", new UserPropertyEditor(userService));
+    }
 
 	@Override
 	protected ModelAndView onSubmit(HttpServletRequest request,
@@ -66,16 +72,15 @@ public class SpotFormController extends SimpleFormController {
 
 		SpotData formData = (SpotData) command;
         TeamBean teamBean1 = new TeamBean();
-        teamBean1.getUsers().add(formData.getTeam1user1());
-        teamBean1.getUsers().add(formData.getTeam1user2());
+        teamBean1.setFirstUsers(formData.getFirstTeamUserOne());
+        teamBean1.setSecondUser(formData.getFirstTeamUserTwo());
+
         TeamBean teamBean2 = new TeamBean();
-        teamBean2.getUsers().add(formData.getTeam2user1());
-        teamBean2.getUsers().add(formData.getTeam2user2());
-        formData.getBean().setAwayTeam(teamBean1);
+        teamBean2.setFirstUsers(formData.getSecondTeamUserOne());
+        teamBean2.setSecondUser(formData.getSecondTeamUserTwo());
+        formData.getBean().setHomeTeam(teamBean1);
         formData.getBean().setAwayTeam(teamBean2);
-        log.error("before");
         spotService.saveOrUpdate(formData.getBean());
-        log.error("after");
 		return new ModelAndView(getSuccessView());
 	}
 

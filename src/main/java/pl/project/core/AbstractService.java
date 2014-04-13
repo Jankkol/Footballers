@@ -9,7 +9,9 @@ public abstract interface AbstractService<B extends AbstractBean<ID>, ID extends
 
     public void saveOrUpdate(B b);
 
-    public B get(String id);
+    public B get(ID id);
+    
+    public void delete(B bean);
 
     public List<B> getAll();
 

@@ -23,7 +23,7 @@ public class AbstractServiceBean<B extends AbstractBean<ID>, ID extends Serializ
         getDao().saveOrUpdate(b);
     }
 
-    public B get(String id) {
+    public B get(ID id) {
         return getDao().get(id);
     }
 
@@ -34,4 +34,9 @@ public class AbstractServiceBean<B extends AbstractBean<ID>, ID extends Serializ
     public boolean isExist(Long id){
         return getDao().isExist(id);
     }
+
+	@Override
+	public void delete(B bean) {
+        getDao().delete(bean);
+	}
 }

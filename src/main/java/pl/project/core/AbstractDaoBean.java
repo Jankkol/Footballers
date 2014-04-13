@@ -32,9 +32,9 @@ public class AbstractDaoBean<B extends AbstractBean<ID>, ID extends Serializable
 	}
 
     @Transactional
-	public B get(ID bean) {
-		// TODO Auto-generated method stub
-		return null;
+	public B get(ID id) {
+		B bean = getHibernateTemplate().get(domainClass, id);
+		return bean;
 	}
 
     @Transactional
