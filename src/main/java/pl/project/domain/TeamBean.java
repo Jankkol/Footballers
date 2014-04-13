@@ -17,7 +17,7 @@ public class TeamBean extends AbstractBean<Long> {
 
 	@ManyToOne
     @JoinColumn(name = "FIRST_USER", nullable = true)
-    private UserBean firstUsers;
+    private UserBean firstUser;
 	
 	@ManyToOne
     @JoinColumn(name = "SECOND_USER", nullable = true)
@@ -28,12 +28,12 @@ public class TeamBean extends AbstractBean<Long> {
 		return id;
 	}
 
-	public UserBean getFirstUsers() {
-		return firstUsers;
+	public UserBean getFirstUser() {
+		return firstUser;
 	}
 
-	public void setFirstUsers(UserBean firstUsers) {
-		this.firstUsers = firstUsers;
+	public void setFirstUser(UserBean firstUsers) {
+		this.firstUser = firstUsers;
 	}
 
 	public UserBean getSecondUser() {

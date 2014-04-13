@@ -72,11 +72,11 @@ public class SpotFormController extends SimpleFormController {
 
 		SpotData formData = (SpotData) command;
         TeamBean teamBean1 = new TeamBean();
-        teamBean1.setFirstUsers(formData.getFirstTeamUserOne());
+        teamBean1.setFirstUser(formData.getFirstTeamUserOne());
         teamBean1.setSecondUser(formData.getFirstTeamUserTwo());
 
         TeamBean teamBean2 = new TeamBean();
-        teamBean2.setFirstUsers(formData.getSecondTeamUserOne());
+        teamBean2.setFirstUser(formData.getSecondTeamUserOne());
         teamBean2.setSecondUser(formData.getSecondTeamUserTwo());
         formData.getBean().setHomeTeam(teamBean1);
         formData.getBean().setAwayTeam(teamBean2);

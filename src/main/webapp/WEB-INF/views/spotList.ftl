@@ -23,8 +23,9 @@
                 <thead>
                 <tr>
                     <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
+                    <th>First Team</th>
+                    <th>Second Team</th>
+                    <th>Score</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -32,7 +33,10 @@
                     <tr>
                         <td><input id="user" class="checkbox" type="checkbox" name="user" value="${spots.id}"></input>
                         </td>
-                        <td><a href="#"> ${spots.homeTeam} </a></td>
+                        <td><a href="#"> ${spots.homeTeam.firstUser.firstName} ${spots.homeTeam.firstUser.lastName} ,
+                            ${spots.homeTeam.secondUser.firstName} ${spots.homeTeam.secondUser.lastName} </a></td>
+                        <td><a href="#"> ${spots.awayTeam.firstUser.firstName} ${spots.awayTeam.firstUser.lastName} ,
+                            ${spots.awayTeam.secondUser.firstName} ${spots.awayTeam.secondUser.lastName}</a></td>
                         <td><a href="#"> </a></td>
                     </tr>
                 </#list>
