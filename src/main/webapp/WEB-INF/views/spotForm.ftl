@@ -27,42 +27,42 @@
             <h1>First team:</h1><br>
             <select name="firstTeamUserOne">
                 <#list users as user>
-                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
+                    <option value="${user.id}" <#if user.id==form.bean.homeTeam.firstUser.id>selected</#if>>${user.firstName} ${user.lastName}</option>
                 </#list>
             </select>
             <select name="firstTeamUserTwo">
                 <#list users as user>
-                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
+                    <option value="${user.id}" <#if user.id==form.bean.homeTeam.secondUser.id>selected</#if>>${user.firstName} ${user.lastName}</option>
                 </#list>
             </select><br><br>
             <h1>Second team:</h1><br>
             <select name="secondTeamUserOne">
                 <#list users as user>
-                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
+                    <option value="${user.id}" <#if user.id==form.bean.awayTeam.firstUser.id>selected</#if>>${user.firstName} ${user.lastName}</option>
                 </#list>
             </select>
             <select name="secondTeamUserTwo">
                 <#list users as user>
-                    <option value="${user.id}">${user.firstName} ${user.lastName}</option>
+                    <option value="${user.id}"<#if user.id==form.bean.awayTeam.secondUser.id>selected</#if> >${user.firstName} ${user.lastName}</option>
                 </#list>
             </select><br><br>
             <h1>Scores:</h1><br>
             <select name="firstMatch">
                 <#assign list = ["np", "1:7", "2:7", "3:7", "4:7", "5:7", "6:7", "7:6", "7:5", "7:4", "7:3", "7:2", "7:1"]/>
                 <#list list as x>
-                    <option value="${x}">${x}</option>
+                    <option value="${x}" <#if x==form.bean.score.firstMatch>selected</#if>>${x}</option>
                 </#list>
             </select>
             <select name="secondMatch">
                 <#assign list = ["np", "1:7", "2:7", "3:7", "4:7", "5:7", "6:7", "7:6", "7:5", "7:4", "7:3", "7:2", "7:1"]/>
                 <#list list as x>
-                    <option value="${x}">${x}</option>
+                    <option value="${x}" <#if x==form.bean.score.secondMatch>selected</#if>>${x}</option>
                 </#list>
             </select>
             <select name="thirdMatch">
                 <#assign list = ["np", "1:7", "2:7", "3:7", "4:7", "5:7", "6:7", "7:6", "7:5", "7:4", "7:3", "7:2", "7:1"]/>
                 <#list list as x>
-                    <option value="${x}">${x}</option>
+                    <option value="${x}" <#if x==form.bean.score.thirdMatch>selected</#if>>${x}</option>
                 </#list>
             </select>
             <!--<input name="firstMatch" type="text"/>

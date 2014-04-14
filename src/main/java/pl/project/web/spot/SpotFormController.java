@@ -106,13 +106,6 @@ public class SpotFormController extends SimpleFormController {
             log.info("Biore obiekt z serwisu");
             spot = spotService.get(Long.valueOf(id));
             spotData.setBean(spot);
-            spotData.setFirstTeamUserOne(spot.getHomeTeam().getFirstUser());
-            spotData.setFirstTeamUserTwo(spot.getHomeTeam().getSecondUser());
-            spotData.setSecondTeamUserOne(spot.getAwayTeam().getFirstUser());
-            spotData.setSecondTeamUserTwo(spot.getAwayTeam().getSecondUser());
-            spotData.setFirstMatch(spot.getScore().getFirstMatch());
-            spotData.setFirstMatch(spot.getScore().getSecondMatch());
-            spotData.setFirstMatch(spot.getScore().getThirdMatch());
 		}
 		if (spot == null) {
 			log.info("Tworze nowy obiekt.");
